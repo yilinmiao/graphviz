@@ -19,6 +19,17 @@ digraph se5year {
         "Year 4" -> "Year 5";
         {
             edge [comment="Wildcard node added automatic in EG."];
+            node [comment="Wildcard node added automatic in EG."];
+            ELM [URL="http://testing.sjsu.edu/eptelm", 
+                 label="ELM"];
+            EPT [URL="http://testing.sjsu.edu/eptelm", 
+                 label="EPT"];
+            WST [URL="http://testing.sjsu.edu/wst", 
+                 label="WST"];
+        }
+
+        {
+            edge [comment="Wildcard node added automatic in EG."];
             node [color=grey];
             ENGL1A [URL="http://info.sjsu.edu/web-dbgen/catalog/courses/ENGL001A.html", 
                     label="ENGL 1A"];
@@ -114,7 +125,6 @@ digraph se5year {
             "Year 1";
             ENGR10;
             MATH30;
-            Communications;
             ENGL1A;
             CS46A;
             MATH42;
@@ -129,10 +139,8 @@ digraph se5year {
             "Year 2";
             MATH31;
             CS46B;
-            AmericanStudies1A;
             MATH32;
             PHYS50;
-            AmericanStudies1B;
         }
 
         {
@@ -178,6 +186,99 @@ digraph se5year {
             Elective2;
             CMPE195B;
             ENGR195B;
+        }
+
+        {
+            rank=same;
+            edge [comment="Wildcard node added automatic in EG."];
+            node [comment="Wildcard node added automatic in EG."];
+            EPT;
+            ELM;
+            WST;
+            COREGE;
+        }
+
+        {
+            edge [comment="Wildcard node added automatic in EG."];
+            node [comment="Wildcard node added automatic in EG."];
+            ELM -> MATH30;
+            ELM -> MATH42;
+            ELM -> CS46A;
+            MATH30 -> MATH31;
+            MATH30 -> PHYS50;
+            MATH30 -> CS146;
+            PHYS50 -> PHYS51;
+            MATH31 -> PHYS51;
+            MATH31 -> MATH32;
+            MATH31 -> MATH123;
+            MATH32 -> ISE130;
+            {
+                edge [style=dashed, 
+                      dir=none];
+                node [comment="Wildcard node added automatic in EG."];
+                MATH42 -> CS46B;
+            }
+
+            MATH42 -> CS151;
+            MATH42 -> CS146;
+            CS46A -> CS46B;
+            CS46B -> CS146;
+            CS46B -> CS151;
+            CS46B -> CMPE102;
+            CS46B -> CMPE120;
+            CS46B -> CMPE131;
+            {
+                edge [style="invis"];
+                node [comment="Wildcard node added automatic in EG."];
+                CMPE120 -> CS149;
+            }
+
+            CMPE120 -> CS166;
+            CS146 -> CMPE148;
+            CMPE120 -> CMPE148;
+            CS146 -> CS149;
+            CS146 -> CS166;
+            CS146 -> CS157A;
+            CS149 -> CMPE172;
+            CMPE131 -> CMPE133;
+            CMPE131 -> CMPE187;
+            {
+                edge [style="invis"];
+                node [comment="Wildcard node added automatic in EG."];
+                ENGL1B -> CMPE187;
+            }
+
+            {
+                edge [style="invis"];
+                node [comment="Wildcard node added automatic in EG."];
+                CMPE165 -> ENGR195A;
+            }
+
+            ISE130 -> CMPE195A;
+            CMPE131 -> CMPE195A;
+            CMPE133 -> CMPE165;
+            WST -> ENGR100W;
+            ENGR100W -> CMPE195A;
+            CMPE195A -> CMPE195B;
+            {
+                edge [style=dashed, 
+                      dir=none];
+                node [comment="Wildcard node added automatic in EG."];
+                ENGR195A -> CMPE195A;
+            }
+
+            {
+                edge [style=dashed, 
+                      dir=none];
+                node [comment="Wildcard node added automatic in EG."];
+                ENGR195B -> CMPE195B;
+            }
+
+            ENGR195A -> ENGR195B;
+            EPT -> ENGL1A;
+            ENGL1A -> ENGL1B;
+            ENGL1B -> ENGR100W;
+            COREGE -> ENGR100W;
         }
 
     }

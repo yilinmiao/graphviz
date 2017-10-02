@@ -5,15 +5,30 @@ digraph cmpe5year {
     graph [ranksep="0.5", 
            ratio="compress", 
            bb="0 0 1936 620", 
-           size="11,8.5", 
+           nodesep="0.4", 
            dpi=100, 
-           nodesep="0.4"];
+           size="11,8.5"];
     {
         edge [comment="Wildcard node added automatic in EG."];
         node [color=pink, 
               shape=box, 
               style="filled, rounded"];
-        "Year 1" -> "Year 2" -> "Year 3" -> "Year 4" -> "Year 5";
+        "" -> "Year 1"      
+        "Year 1" -> "Year 2";
+        "Year 2" -> "Year 3";
+        "Year 3" -> "Year 4";
+        "Year 4" -> "Year 5";
+        {
+            edge [comment="Wildcard node added automatic in EG."];
+            node [comment="Wildcard node added automatic in EG."];
+            ELM [URL="http://testing.sjsu.edu/eptelm", 
+                 label="ELM"];
+            EPT [URL="http://testing.sjsu.edu/eptelm", 
+                 label="EPT"];
+            WST [URL="http://testing.sjsu.edu/wst", 
+                 label="WST"];
+        }
+        
         {
             edge [comment="Wildcard node added automatic in EG."];
             node [color=grey];
@@ -104,11 +119,21 @@ digraph cmpe5year {
             rank=same;
             edge [comment="Wildcard node added automatic in EG."];
             node [comment="Wildcard node added automatic in EG."];
+            "";
+            "ELM";
+            "EPT";
+            "Core GE";
+            "WST";
+        }
+
+        {
+            rank=same;
+            edge [comment="Wildcard node added automatic in EG."];
+            node [comment="Wildcard node added automatic in EG."];
             "Year 1";
             "ENGR 010";
             "MATH 030";
             "MATH 042";
-            "Communications";
             "MATH 031";
             "PHYS 050";
             "ENGL 001A";
@@ -126,17 +151,15 @@ digraph cmpe5year {
             "MATH 123";
             "EE 097";
             "EE 098";
-            "American Studies 1A";
         }
 
-        { 
+        {
             rank=same;
             edge [comment="Wildcard node added automatic in EG."];
             node [comment="Wildcard node added automatic in EG."];
             "Year 3";
             "CMPE 050";
             "BIOL 010";
-            "American Studies 1B";
             "CMPE 126";
             "CMPE 110";
             "CMPE 124";
@@ -174,5 +197,186 @@ digraph cmpe5year {
             "CMPE 195B";
             "ENGR 195B";
         }
+
+        {
+            edge [style=solid];
+            node [comment="Wildcard node added automatic in EG."];
+            "MATH 030";
+            "ELM" -> "MATH 030";
+            "MATH 031";
+            "MATH 030" -> "MATH 031";
+            "MATH 032";
+            "MATH 031" -> "MATH 032";
+            "MATH 042";
+            "ELM" -> "MATH 042";
+            "MATH 123";
+            "MATH 031" -> "MATH 123";
+            "PHYS 050";
+            "MATH 030" -> "PHYS 050";
+            "PHYS 051";
+            "PHYS 050" -> "PHYS 051";
+            "MATH 031" -> "PHYS 051";
+            "CMPE 030";
+            {
+                edge [style=dashed, 
+                      arrowhead=open];
+                node [comment="Wildcard node added automatic in EG."];
+                "MATH 030" -> "CMPE 030";
+            }
+
+            {
+                edge [style=dashed, 
+                      arrowtail=open, 
+                      dir=back];
+                node [comment="Wildcard node added automatic in EG."];
+                "EE 097" -> "EE 098";
+            }
+
+            "ENGR 010" -> "EE 098";
+            "ENGR 010" -> "CMPE 126";
+            "PHYS 051" -> "EE 098";
+            {
+                edge [style=dashed, 
+                      arrowtail=open, 
+                      dir=back];
+                node [comment="Wildcard node added automatic in EG."];
+                "EE 098" -> "MATH 123";
+            }
+
+            "CMPE 050";
+            "CMPE 030" -> "CMPE 050";
+            "CMPE 102";
+            "CMPE 050" -> "CMPE 102";
+            "CMPE 110";
+            "EE 098" -> "CMPE 110";
+            "MATH 123" -> "CMPE 110";
+            "EE 097" -> "CMPE 124";
+            "EE 098" -> "CMPE 124";
+            {
+                edge [style=dashed, 
+                      arrowhead=open];
+                node [comment="Wildcard node added automatic in EG."];
+                "CMPE 110" -> "CMPE 124";
+            }
+
+            "CMPE 124" -> "CMPE 125";
+            "CMPE 126";
+            "CMPE 050" -> "CMPE 126";
+            "CMPE 127";
+            {
+                edge [style=dashed, 
+                      arrowhead=open];
+                node [comment="Wildcard node added automatic in EG."];
+                "CMPE 125" -> "CMPE 127";
+            }
+
+            "CMPE 126" -> "CMPE 130";
+            "ISE 130" -> "CMPE 130";
+            "CMPE 131";
+            "CMPE 126" -> "CMPE 131";
+            "CMPE 140";
+            "CMPE 125" -> "CMPE 140";
+            "CMPE 142";
+            "CMPE 102" -> "CMPE 142";
+            "CMPE 126" -> "CMPE 142";
+            {
+                edge [style=dashed, 
+                      arrowhead=open];
+                node [comment="Wildcard node added automatic in EG."];
+                "CMPE 130" -> "CMPE 142";
+            }
+
+            "CMPE 110" -> "CMPE 146";
+            "CMPE 127" -> "CMPE 146";
+            "CMPE 148";
+            "CMPE 124" -> "CMPE 148";
+            "CMPE 126" -> "CMPE 148";
+            "CMPE 152";
+            "CMPE 126" -> "CMPE 152";
+            "CMPE 102" -> "CMPE 152";
+            "CMPE 195A";
+            "CMPE 127" -> "CMPE 195A";
+            "CMPE 130" -> "CMPE 195A";
+            "CMPE 131" -> "CMPE 195A";
+            "ISE 130" -> "CMPE 195A";
+            "ENGR 100W" -> "CMPE 195A";
+            "CMPE 195B";
+            "CMPE 195A" -> "CMPE 195B";
+            "ENGR 100W";
+            "ENGL 001B" -> "ENGR 100W";
+            "Core GE" -> "ENGR 100W";
+            "WST" -> "ENGR 100W";
+            "ISE 130";
+            "MATH 032" -> "ISE 130";
+            "ENGL 001B";
+            "ENGL 001A" -> "ENGL 001B";
+            "ENGL 001A";
+            "EPT" -> "ENGL 001A";
+            {
+                edge [style=dashed, 
+                      dir=none];
+                node [comment="Wildcard node added automatic in EG."];
+                "ENGR 195A" -> "CMPE 195A";
+            }
+
+            {
+                edge [style=dashed, 
+                      dir=none];
+                node [comment="Wildcard node added automatic in EG."];
+                "ENGR 195B" -> "CMPE 195B";
+            }
+
+            "ENGR 195A" -> "ENGR 195B";
+            {
+                edge [style="invis"];
+                node [comment="Wildcard node added automatic in EG."];
+                "CMPE 146" -> "ENGR 195A";
+            }
+
+            {
+                edge [style="invis"];
+                node [comment="Wildcard node added automatic in EG."];
+                "ENGL 001B" -> "Core GE";
+            }
+
+            {
+                edge [style="invis"];
+                node [comment="Wildcard node added automatic in EG."];
+                "Core GE" -> "WST";
+            }
+
+            {
+                edge [style="invis"];
+                node [comment="Wildcard node added automatic in EG."];
+                "WST" -> "CMPE 124";
+            }
+
+            {
+                edge [style="invis"];
+                node [comment="Wildcard node added automatic in EG."];
+                "EPT" -> "EE 097";
+            }
+
+            {
+                edge [style="invis"];
+                node [comment="Wildcard node added automatic in EG."];
+                "ISE 130" -> "CMPE 126";
+            }
+
+            {
+                edge [style="invis"];
+                node [comment="Wildcard node added automatic in EG."];
+                "CMPE 050" -> "ISE 130";
+            }
+
+            {
+                edge [style="invis"];
+                node [comment="Wildcard node added automatic in EG."];
+                "MATH 030" -> "MATH 042";
+            }
+
+        }
+
     }
+
 }
