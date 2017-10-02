@@ -1,0 +1,178 @@
+digraph cmpe5year {
+    label="\nBS in Computer Engineering 5-Year Sample Plan (120 Units)\n";
+    edge [comment="Wildcard node added automatic in EG."];
+    node [comment="Wildcard node added automatic in EG."];
+    graph [ranksep="0.5", 
+           ratio="compress", 
+           bb="0 0 1936 620", 
+           size="11,8.5", 
+           dpi=100, 
+           nodesep="0.4"];
+    {
+        edge [comment="Wildcard node added automatic in EG."];
+        node [color=pink, 
+              shape=box, 
+              style="filled, rounded"];
+        "Year 1" -> "Year 2" -> "Year 3" -> "Year 4" -> "Year 5";
+        {
+            edge [comment="Wildcard node added automatic in EG."];
+            node [color=grey];
+            "MATH 030" [URL="http://info.sjsu.edu/web-dbgen/catalog/courses/MATH030.html", 
+                        label="MATH 30"];
+            "MATH 031" [URL="http://info.sjsu.edu/web-dbgen/catalog/courses/MATH031.html", 
+                        label="MATH 31"];
+            "MATH 032" [URL="http://info.sjsu.edu/web-dbgen/catalog/courses/MATH032.html", 
+                        label="MATH 32"];
+            "MATH 042" [URL="http://info.sjsu.edu/web-dbgen/catalog/courses/MATH042.html", 
+                        label="MATH 42"];
+            "MATH 123" [URL="http://info.sjsu.edu/web-dbgen/catalog/courses/MATH123.html", 
+                        label="MATH 123"];
+            "BIOL 010" [URL="http://info.sjsu.edu/web-dbgen/catalog/courses/BIOL010.html", 
+                        label="BIOL 010"];
+            "PHYS 050" [URL="http://info.sjsu.edu/web-dbgen/catalog/courses/PHYS050.html", 
+                        label="PHYS 50"];
+            "PHYS 051" [URL="http://info.sjsu.edu/web-dbgen/catalog/courses/PHYS051.html", 
+                        label="PHYS 51"];
+            "ISE 130" [URL="http://info.sjsu.edu/web-dbgen/catalog/courses/ISE130.html", 
+                       label="ISE 130"];
+            "ENGR 100W" [URL="http://info.sjsu.edu/web-dbgen/catalog/courses/ENGR100W.html", 
+                         label="ENGR 100W"];
+            "ENGL 001B" [URL="http://info.sjsu.edu/web-dbgen/catalog/courses/ENGL001B.html", 
+                         label="ENGL 1B"];
+            "ENGL 001A" [URL="http://info.sjsu.edu/web-dbgen/catalog/courses/ENGL001A.html", 
+                         label="ENGL 1A"];
+            "ENGR 010" [URL="http://info.sjsu.edu/web-dbgen/catalog/courses/ENGR010.html", 
+                        label="ENGR 10"];
+            "EE 097" [URL="http://info.sjsu.edu/web-dbgen/catalog/courses/EE097.html", 
+                      label="EE 97"];
+            "EE 098" [URL="http://info.sjsu.edu/web-dbgen/catalog/courses/EE098.html", 
+                      label="EE 98"];
+            "ENGR 195A" [URL="http://info.sjsu.edu/web-dbgen/catalog/courses/ENGR195A.html", 
+                         label="ENGR 195A"];
+            "ENGR 195B" [URL="http://info.sjsu.edu/web-dbgen/catalog/courses/ENGR195B.html", 
+                         label="ENGR 195B"];
+        }
+
+        {
+            edge [comment="Wildcard node added automatic in EG."];
+            node [color=violet];
+            "CMPE 030" [URL="http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE030.html", 
+                        label="CMPE 30"];
+            "CMPE 050" [URL="http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE050.html", 
+                        label="CMPE 50"];
+            "CMPE 102" [URL="http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE102.html", 
+                        label="CMPE 102"];
+            "CMPE 110" [URL="http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE110.html", 
+                        label="CMPE 110"];
+            "CMPE 124" [URL="http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE124.html", 
+                        label="CMPE 124"];
+            "CMPE 125" [URL="http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE125.html", 
+                        label="CMPE 125"];
+            "CMPE 126" [URL="http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE126.html", 
+                        label="CMPE 126"];
+            "CMPE 127" [URL="http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE127.html", 
+                        label="CMPE 127"];
+            "CMPE 130" [URL="http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE130.html", 
+                        label="CMPE 130"];
+            "CMPE 131" [URL="http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE131.html", 
+                        label="CMPE 131"];
+            "CMPE 140" [URL="http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE140.html", 
+                        label="CMPE 140"];
+            "CMPE 142" [URL="http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE142.html", 
+                        label="CMPE 142"];
+            "CMPE 146" [URL="http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE146.html", 
+                        label="CMPE 146"];
+            "CMPE 148" [URL="http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE148.html", 
+                        label="CMPE 148"];
+            "CMPE 152" [URL="http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE152.html", 
+                        label="CMPE 152"];
+            "CMPE 195A" [URL="http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE195A.html", 
+                         label="CMPE 195A"];
+            "CMPE 195B" [URL="http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE195B.html", 
+                         label="CMPE 195B"];
+        }
+
+        {
+            edge [comment="Wildcard node added automatic in EG."];
+            node [color=red];
+            Elective1 [label="Elective 1"];
+            Elective2 [label="Elective 2"];
+            Elective3 [label="Elective 3"];
+        }
+
+        {
+            rank=same;
+            edge [comment="Wildcard node added automatic in EG."];
+            node [comment="Wildcard node added automatic in EG."];
+            "Year 1";
+            "ENGR 010";
+            "MATH 030";
+            "MATH 042";
+            "Communications";
+            "MATH 031";
+            "PHYS 050";
+            "ENGL 001A";
+        }
+
+        {
+            rank=same;
+            edge [comment="Wildcard node added automatic in EG."];
+            node [comment="Wildcard node added automatic in EG."];
+            "Year 2";
+            "CMPE 030";
+            "MATH 032";
+            "PHYS 051";
+            "ENGL 001B";
+            "MATH 123";
+            "EE 097";
+            "EE 098";
+            "American Studies 1A";
+        }
+
+        { 
+            rank=same;
+            edge [comment="Wildcard node added automatic in EG."];
+            node [comment="Wildcard node added automatic in EG."];
+            "Year 3";
+            "CMPE 050";
+            "BIOL 010";
+            "American Studies 1B";
+            "CMPE 126";
+            "CMPE 110";
+            "CMPE 124";
+            "ISE 130";
+        }
+
+        {
+            rank=same;
+            edge [comment="Wildcard node added automatic in EG."];
+            node [comment="Wildcard node added automatic in EG."];
+            "Year 4";
+            "CMPE 125";
+            "CMPE 127";
+            "CMPE 102";
+            "ENGR 100W";
+            "CMPE 130";
+            "CMPE 131";
+            "CMPE 142";
+            "CMPE 148";
+        }
+
+        {
+            rank=same;
+            edge [comment="Wildcard node added automatic in EG."];
+            node [comment="Wildcard node added automatic in EG."];
+            "Year 5";
+            "CMPE 140";
+            "CMPE 146";
+            "CMPE 152";
+            "CMPE 195A";
+            "ENGR 195A";
+            Elective1;
+            Elective2;
+            Elective3;
+            "CMPE 195B";
+            "ENGR 195B";
+        }
+    }
+}
