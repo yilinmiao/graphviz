@@ -5,18 +5,23 @@ digraph se5year {
     graph [ranksep="0.5", 
            ratio="compress", 
            bb="0 0 1936 620", 
-           nodesep="0.2", 
+           size="11,8.5", 
            dpi=100, 
-           size="11,8.5"];
+           nodesep="0.2"];
     {
         edge [comment="Wildcard node added automatic in EG."];
         node [color=pink, 
               shape=box, 
               style="filled, rounded"];
-        "Year 1, Semester 1" -> "Year 1, Semester 2" -> "Year 2, Semester 1";
-        "Year 2, Semester 1" -> "Year 2, Semester 2" -> "Year 3, Semester 1";
-        "Year 3, Semester 1" -> "Year 3, Semester 2" -> "Year 4, Semester 1";
-        "Year 4, Semester 1" -> "Year 4, Semester 2" -> "Year 5, Semester 1" -> "Year 5, Semester 2";
+        "Year 1, Semester 1" -> "Year 1, Semester 2";
+        "Year 1, Semester 2" -> "Year 2, Semester 1";
+        "Year 2, Semester 1" -> "Year 2, Semester 2";
+        "Year 2, Semester 2" -> "Year 3, Semester 1";
+        "Year 3, Semester 1" -> "Year 3, Semester 2";
+        "Year 3, Semester 2" -> "Year 4, Semester 1";
+        "Year 4, Semester 1" -> "Year 4, Semester 2";
+        "Year 4, Semester 2" -> "Year 5, Semester 1";
+        "Year 5, Semester 1" -> "Year 5, Semester 2";
         {
             edge [comment="Wildcard node added automatic in EG."];
             node [comment="Wildcard node added automatic in EG."];
@@ -27,7 +32,7 @@ digraph se5year {
             WST [URL="http://testing.sjsu.edu/wst", 
                  label="WST"];
         }
-        
+
         {
             edge [comment="Wildcard node added automatic in EG."];
             node [color=grey];
@@ -315,5 +320,7 @@ digraph se5year {
             ENGL1B -> ENGR100W;
             COREGE -> ENGR100W;
         }
+
     }
+
 }

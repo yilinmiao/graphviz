@@ -1,0 +1,2986 @@
+%!PS-Adobe-3.0
+%%Creator: graphviz version 2.36.0 (20140111.2315)
+%%Title: se5year
+%%Pages: (atend)
+%%BoundingBox: (atend)
+%%EndComments
+save
+%%BeginProlog
+/DotDict 200 dict def
+DotDict begin
+
+/setupLatin1 {
+mark
+/EncodingVector 256 array def
+ EncodingVector 0
+
+ISOLatin1Encoding 0 255 getinterval putinterval
+EncodingVector 45 /hyphen put
+
+% Set up ISO Latin 1 character encoding
+/starnetISO {
+        dup dup findfont dup length dict begin
+        { 1 index /FID ne { def }{ pop pop } ifelse
+        } forall
+        /Encoding EncodingVector def
+        currentdict end definefont
+} def
+/Times-Roman starnetISO def
+/Times-Italic starnetISO def
+/Times-Bold starnetISO def
+/Times-BoldItalic starnetISO def
+/Helvetica starnetISO def
+/Helvetica-Oblique starnetISO def
+/Helvetica-Bold starnetISO def
+/Helvetica-BoldOblique starnetISO def
+/Courier starnetISO def
+/Courier-Oblique starnetISO def
+/Courier-Bold starnetISO def
+/Courier-BoldOblique starnetISO def
+cleartomark
+} bind def
+
+%%BeginResource: procset graphviz 0 0
+/coord-font-family /Times-Roman def
+/default-font-family /Times-Roman def
+/coordfont coord-font-family findfont 8 scalefont def
+
+/InvScaleFactor 1.0 def
+/set_scale {
+       dup 1 exch div /InvScaleFactor exch def
+       scale
+} bind def
+
+% styles
+/solid { [] 0 setdash } bind def
+/dashed { [9 InvScaleFactor mul dup ] 0 setdash } bind def
+/dotted { [1 InvScaleFactor mul 6 InvScaleFactor mul] 0 setdash } bind def
+/invis {/fill {newpath} def /stroke {newpath} def /show {pop newpath} def} bind def
+/bold { 2 setlinewidth } bind def
+/filled { } bind def
+/unfilled { } bind def
+/rounded { } bind def
+/diagonals { } bind def
+/tapered { } bind def
+
+% hooks for setting color 
+/nodecolor { sethsbcolor } bind def
+/edgecolor { sethsbcolor } bind def
+/graphcolor { sethsbcolor } bind def
+/nopcolor {pop pop pop} bind def
+
+/beginpage {	% i j npages
+	/npages exch def
+	/j exch def
+	/i exch def
+	/str 10 string def
+	npages 1 gt {
+		gsave
+			coordfont setfont
+			0 0 moveto
+			(\() show i str cvs show (,) show j str cvs show (\)) show
+		grestore
+	} if
+} bind def
+
+/set_font {
+	findfont exch
+	scalefont setfont
+} def
+
+% draw text fitted to its expected width
+/alignedtext {			% width text
+	/text exch def
+	/width exch def
+	gsave
+		width 0 gt {
+			[] 0 setdash
+			text stringwidth pop width exch sub text length div 0 text ashow
+		} if
+	grestore
+} def
+
+/boxprim {				% xcorner ycorner xsize ysize
+		4 2 roll
+		moveto
+		2 copy
+		exch 0 rlineto
+		0 exch rlineto
+		pop neg 0 rlineto
+		closepath
+} bind def
+
+/ellipse_path {
+	/ry exch def
+	/rx exch def
+	/y exch def
+	/x exch def
+	matrix currentmatrix
+	newpath
+	x y translate
+	rx ry scale
+	0 0 1 0 360 arc
+	setmatrix
+} bind def
+
+/endpage { showpage } bind def
+/showpage { } def
+
+/layercolorseq
+	[	% layer color sequence - darkest to lightest
+		[0 0 0]
+		[.2 .8 .8]
+		[.4 .8 .8]
+		[.6 .8 .8]
+		[.8 .8 .8]
+	]
+def
+
+/layerlen layercolorseq length def
+
+/setlayer {/maxlayer exch def /curlayer exch def
+	layercolorseq curlayer 1 sub layerlen mod get
+	aload pop sethsbcolor
+	/nodecolor {nopcolor} def
+	/edgecolor {nopcolor} def
+	/graphcolor {nopcolor} def
+} bind def
+
+/onlayer { curlayer ne {invis} if } def
+
+/onlayers {
+	/myupper exch def
+	/mylower exch def
+	curlayer mylower lt
+	curlayer myupper gt
+	or
+	{invis} if
+} def
+
+/curlayer 0 def
+
+%%EndResource
+%%EndProlog
+%%BeginSetup
+14 default-font-family set_font
+1 setmiterlimit
+% /arrowlength 10 def
+% /arrowwidth 5 def
+
+% make sure pdfmark is harmless for PS-interpreters other than Distiller
+/pdfmark where {pop} {userdict /pdfmark /cleartomark load put} ifelse
+% make '<<' and '>>' safe on PS Level 1 devices
+/languagelevel where {pop languagelevel}{1} ifelse
+2 lt {
+    userdict (<<) cvn ([) cvn load put
+    userdict (>>) cvn ([) cvn load put
+} if
+
+%%EndSetup
+setupLatin1
+%%Page: 1 1
+%%PageBoundingBox: 50 50 974 900
+%%PageOrientation: Portrait
+<< /PageSize [974 900] >> setpagedevice
+0 0 1 beginpage
+gsave
+50 50 924 850 boxprim clip newpath
+1.05985 1.05985 set_scale 0 rotate 51.1765 51.1765 translate
+[ /CropBox [50 50 974 900] /PAGES pdfmark
+0 0 0 graphcolor
+14 /Times-Roman set_font
+229.54 6.8 moveto 404.93 (BS in Software Engineering 5-Year Sample Plan \(120 Units\) - Fall 2016) alignedtext
+% Year 1, Semester 1
+% Wildcard node added automatic in EG.
+gsave
+0.96863 0.24706 1 nodecolor
+newpath 108.34 722 moveto
+108.34 722 11.66 722 11.66 722 curveto
+5.66 722 -.34 716 -.34 710 curveto
+-.34 710 -.34 698 -.34 698 curveto
+-.34 692 5.66 686 11.66 686 curveto
+11.66 686 108.34 686 108.34 686 curveto
+114.34 686 120.34 692 120.34 698 curveto
+120.34 698 120.34 710 120.34 710 curveto
+120.34 716 114.34 722 108.34 722 curveto
+closepath fill
+1 setlinewidth
+filled
+0.96863 0.24706 1 nodecolor
+newpath 108.34 722 moveto
+108.34 722 11.66 722 11.66 722 curveto
+5.66 722 -.34 716 -.34 710 curveto
+-.34 710 -.34 698 -.34 698 curveto
+-.34 692 5.66 686 11.66 686 curveto
+11.66 686 108.34 686 108.34 686 curveto
+114.34 686 120.34 692 120.34 698 curveto
+120.34 698 120.34 710 120.34 710 curveto
+120.34 716 114.34 722 108.34 722 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+7.44 699.8 moveto 105.12 (Year 1, Semester 1) alignedtext
+grestore
+% Year 1, Semester 2
+% Wildcard node added automatic in EG.
+gsave
+0.96863 0.24706 1 nodecolor
+newpath 108.34 650 moveto
+108.34 650 11.66 650 11.66 650 curveto
+5.66 650 -.34 644 -.34 638 curveto
+-.34 638 -.34 626 -.34 626 curveto
+-.34 620 5.66 614 11.66 614 curveto
+11.66 614 108.34 614 108.34 614 curveto
+114.34 614 120.34 620 120.34 626 curveto
+120.34 626 120.34 638 120.34 638 curveto
+120.34 644 114.34 650 108.34 650 curveto
+closepath fill
+1 setlinewidth
+filled
+0.96863 0.24706 1 nodecolor
+newpath 108.34 650 moveto
+108.34 650 11.66 650 11.66 650 curveto
+5.66 650 -.34 644 -.34 638 curveto
+-.34 638 -.34 626 -.34 626 curveto
+-.34 620 5.66 614 11.66 614 curveto
+11.66 614 108.34 614 108.34 614 curveto
+114.34 614 120.34 620 120.34 626 curveto
+120.34 626 120.34 638 120.34 638 curveto
+120.34 644 114.34 650 108.34 650 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+7.44 627.8 moveto 105.12 (Year 1, Semester 2) alignedtext
+grestore
+% Year 1, Semester 1->Year 1, Semester 2
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 60 685.7 moveto
+60 677.98 60 668.71 60 660.11 curveto
+stroke
+0 0 0 edgecolor
+newpath 63.5 660.1 moveto
+60 650.1 lineto
+56.5 660.1 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 63.5 660.1 moveto
+60 650.1 lineto
+56.5 660.1 lineto
+closepath stroke
+grestore
+% Year 2, Semester 1
+% Wildcard node added automatic in EG.
+gsave
+0.96863 0.24706 1 nodecolor
+newpath 108.34 578 moveto
+108.34 578 11.66 578 11.66 578 curveto
+5.66 578 -.34 572 -.34 566 curveto
+-.34 566 -.34 554 -.34 554 curveto
+-.34 548 5.66 542 11.66 542 curveto
+11.66 542 108.34 542 108.34 542 curveto
+114.34 542 120.34 548 120.34 554 curveto
+120.34 554 120.34 566 120.34 566 curveto
+120.34 572 114.34 578 108.34 578 curveto
+closepath fill
+1 setlinewidth
+filled
+0.96863 0.24706 1 nodecolor
+newpath 108.34 578 moveto
+108.34 578 11.66 578 11.66 578 curveto
+5.66 578 -.34 572 -.34 566 curveto
+-.34 566 -.34 554 -.34 554 curveto
+-.34 548 5.66 542 11.66 542 curveto
+11.66 542 108.34 542 108.34 542 curveto
+114.34 542 120.34 548 120.34 554 curveto
+120.34 554 120.34 566 120.34 566 curveto
+120.34 572 114.34 578 108.34 578 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+7.44 555.8 moveto 105.12 (Year 2, Semester 1) alignedtext
+grestore
+% Year 1, Semester 2->Year 2, Semester 1
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 60 613.7 moveto
+60 605.98 60 596.71 60 588.11 curveto
+stroke
+0 0 0 edgecolor
+newpath 63.5 588.1 moveto
+60 578.1 lineto
+56.5 588.1 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 63.5 588.1 moveto
+60 578.1 lineto
+56.5 588.1 lineto
+closepath stroke
+grestore
+% Year 2, Semester 2
+% Wildcard node added automatic in EG.
+gsave
+0.96863 0.24706 1 nodecolor
+newpath 108.34 506 moveto
+108.34 506 11.66 506 11.66 506 curveto
+5.66 506 -.34 500 -.34 494 curveto
+-.34 494 -.34 482 -.34 482 curveto
+-.34 476 5.66 470 11.66 470 curveto
+11.66 470 108.34 470 108.34 470 curveto
+114.34 470 120.34 476 120.34 482 curveto
+120.34 482 120.34 494 120.34 494 curveto
+120.34 500 114.34 506 108.34 506 curveto
+closepath fill
+1 setlinewidth
+filled
+0.96863 0.24706 1 nodecolor
+newpath 108.34 506 moveto
+108.34 506 11.66 506 11.66 506 curveto
+5.66 506 -.34 500 -.34 494 curveto
+-.34 494 -.34 482 -.34 482 curveto
+-.34 476 5.66 470 11.66 470 curveto
+11.66 470 108.34 470 108.34 470 curveto
+114.34 470 120.34 476 120.34 482 curveto
+120.34 482 120.34 494 120.34 494 curveto
+120.34 500 114.34 506 108.34 506 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+7.44 483.8 moveto 105.12 (Year 2, Semester 2) alignedtext
+grestore
+% Year 2, Semester 1->Year 2, Semester 2
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 60 541.7 moveto
+60 533.98 60 524.71 60 516.11 curveto
+stroke
+0 0 0 edgecolor
+newpath 63.5 516.1 moveto
+60 506.1 lineto
+56.5 516.1 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 63.5 516.1 moveto
+60 506.1 lineto
+56.5 516.1 lineto
+closepath stroke
+grestore
+% Year 3, Semester 1
+% Wildcard node added automatic in EG.
+gsave
+0.96863 0.24706 1 nodecolor
+newpath 108.34 434 moveto
+108.34 434 11.66 434 11.66 434 curveto
+5.66 434 -.34 428 -.34 422 curveto
+-.34 422 -.34 410 -.34 410 curveto
+-.34 404 5.66 398 11.66 398 curveto
+11.66 398 108.34 398 108.34 398 curveto
+114.34 398 120.34 404 120.34 410 curveto
+120.34 410 120.34 422 120.34 422 curveto
+120.34 428 114.34 434 108.34 434 curveto
+closepath fill
+1 setlinewidth
+filled
+0.96863 0.24706 1 nodecolor
+newpath 108.34 434 moveto
+108.34 434 11.66 434 11.66 434 curveto
+5.66 434 -.34 428 -.34 422 curveto
+-.34 422 -.34 410 -.34 410 curveto
+-.34 404 5.66 398 11.66 398 curveto
+11.66 398 108.34 398 108.34 398 curveto
+114.34 398 120.34 404 120.34 410 curveto
+120.34 410 120.34 422 120.34 422 curveto
+120.34 428 114.34 434 108.34 434 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+7.44 411.8 moveto 105.12 (Year 3, Semester 1) alignedtext
+grestore
+% Year 2, Semester 2->Year 3, Semester 1
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 60 469.7 moveto
+60 461.98 60 452.71 60 444.11 curveto
+stroke
+0 0 0 edgecolor
+newpath 63.5 444.1 moveto
+60 434.1 lineto
+56.5 444.1 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 63.5 444.1 moveto
+60 434.1 lineto
+56.5 444.1 lineto
+closepath stroke
+grestore
+% Year 3, Semester 2
+% Wildcard node added automatic in EG.
+gsave
+0.96863 0.24706 1 nodecolor
+newpath 108.34 362 moveto
+108.34 362 11.66 362 11.66 362 curveto
+5.66 362 -.34 356 -.34 350 curveto
+-.34 350 -.34 338 -.34 338 curveto
+-.34 332 5.66 326 11.66 326 curveto
+11.66 326 108.34 326 108.34 326 curveto
+114.34 326 120.34 332 120.34 338 curveto
+120.34 338 120.34 350 120.34 350 curveto
+120.34 356 114.34 362 108.34 362 curveto
+closepath fill
+1 setlinewidth
+filled
+0.96863 0.24706 1 nodecolor
+newpath 108.34 362 moveto
+108.34 362 11.66 362 11.66 362 curveto
+5.66 362 -.34 356 -.34 350 curveto
+-.34 350 -.34 338 -.34 338 curveto
+-.34 332 5.66 326 11.66 326 curveto
+11.66 326 108.34 326 108.34 326 curveto
+114.34 326 120.34 332 120.34 338 curveto
+120.34 338 120.34 350 120.34 350 curveto
+120.34 356 114.34 362 108.34 362 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+7.44 339.8 moveto 105.12 (Year 3, Semester 2) alignedtext
+grestore
+% Year 3, Semester 1->Year 3, Semester 2
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 60 397.7 moveto
+60 389.98 60 380.71 60 372.11 curveto
+stroke
+0 0 0 edgecolor
+newpath 63.5 372.1 moveto
+60 362.1 lineto
+56.5 372.1 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 63.5 372.1 moveto
+60 362.1 lineto
+56.5 372.1 lineto
+closepath stroke
+grestore
+% Year 4, Semester 1
+% Wildcard node added automatic in EG.
+gsave
+0.96863 0.24706 1 nodecolor
+newpath 108.34 290 moveto
+108.34 290 11.66 290 11.66 290 curveto
+5.66 290 -.34 284 -.34 278 curveto
+-.34 278 -.34 266 -.34 266 curveto
+-.34 260 5.66 254 11.66 254 curveto
+11.66 254 108.34 254 108.34 254 curveto
+114.34 254 120.34 260 120.34 266 curveto
+120.34 266 120.34 278 120.34 278 curveto
+120.34 284 114.34 290 108.34 290 curveto
+closepath fill
+1 setlinewidth
+filled
+0.96863 0.24706 1 nodecolor
+newpath 108.34 290 moveto
+108.34 290 11.66 290 11.66 290 curveto
+5.66 290 -.34 284 -.34 278 curveto
+-.34 278 -.34 266 -.34 266 curveto
+-.34 260 5.66 254 11.66 254 curveto
+11.66 254 108.34 254 108.34 254 curveto
+114.34 254 120.34 260 120.34 266 curveto
+120.34 266 120.34 278 120.34 278 curveto
+120.34 284 114.34 290 108.34 290 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+7.44 267.8 moveto 105.12 (Year 4, Semester 1) alignedtext
+grestore
+% Year 3, Semester 2->Year 4, Semester 1
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 60 325.7 moveto
+60 317.98 60 308.71 60 300.11 curveto
+stroke
+0 0 0 edgecolor
+newpath 63.5 300.1 moveto
+60 290.1 lineto
+56.5 300.1 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 63.5 300.1 moveto
+60 290.1 lineto
+56.5 300.1 lineto
+closepath stroke
+grestore
+% Year 4, Semester 2
+% Wildcard node added automatic in EG.
+gsave
+0.96863 0.24706 1 nodecolor
+newpath 108.34 218 moveto
+108.34 218 11.66 218 11.66 218 curveto
+5.66 218 -.34 212 -.34 206 curveto
+-.34 206 -.34 194 -.34 194 curveto
+-.34 188 5.66 182 11.66 182 curveto
+11.66 182 108.34 182 108.34 182 curveto
+114.34 182 120.34 188 120.34 194 curveto
+120.34 194 120.34 206 120.34 206 curveto
+120.34 212 114.34 218 108.34 218 curveto
+closepath fill
+1 setlinewidth
+filled
+0.96863 0.24706 1 nodecolor
+newpath 108.34 218 moveto
+108.34 218 11.66 218 11.66 218 curveto
+5.66 218 -.34 212 -.34 206 curveto
+-.34 206 -.34 194 -.34 194 curveto
+-.34 188 5.66 182 11.66 182 curveto
+11.66 182 108.34 182 108.34 182 curveto
+114.34 182 120.34 188 120.34 194 curveto
+120.34 194 120.34 206 120.34 206 curveto
+120.34 212 114.34 218 108.34 218 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+7.44 195.8 moveto 105.12 (Year 4, Semester 2) alignedtext
+grestore
+% Year 4, Semester 1->Year 4, Semester 2
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 60 253.7 moveto
+60 245.98 60 236.71 60 228.11 curveto
+stroke
+0 0 0 edgecolor
+newpath 63.5 228.1 moveto
+60 218.1 lineto
+56.5 228.1 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 63.5 228.1 moveto
+60 218.1 lineto
+56.5 228.1 lineto
+closepath stroke
+grestore
+% Year 5, Semester 1
+% Wildcard node added automatic in EG.
+gsave
+0.96863 0.24706 1 nodecolor
+newpath 108.34 146 moveto
+108.34 146 11.66 146 11.66 146 curveto
+5.66 146 -.34 140 -.34 134 curveto
+-.34 134 -.34 122 -.34 122 curveto
+-.34 116 5.66 110 11.66 110 curveto
+11.66 110 108.34 110 108.34 110 curveto
+114.34 110 120.34 116 120.34 122 curveto
+120.34 122 120.34 134 120.34 134 curveto
+120.34 140 114.34 146 108.34 146 curveto
+closepath fill
+1 setlinewidth
+filled
+0.96863 0.24706 1 nodecolor
+newpath 108.34 146 moveto
+108.34 146 11.66 146 11.66 146 curveto
+5.66 146 -.34 140 -.34 134 curveto
+-.34 134 -.34 122 -.34 122 curveto
+-.34 116 5.66 110 11.66 110 curveto
+11.66 110 108.34 110 108.34 110 curveto
+114.34 110 120.34 116 120.34 122 curveto
+120.34 122 120.34 134 120.34 134 curveto
+120.34 140 114.34 146 108.34 146 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+7.44 123.8 moveto 105.12 (Year 5, Semester 1) alignedtext
+grestore
+% Year 4, Semester 2->Year 5, Semester 1
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 60 181.7 moveto
+60 173.98 60 164.71 60 156.11 curveto
+stroke
+0 0 0 edgecolor
+newpath 63.5 156.1 moveto
+60 146.1 lineto
+56.5 156.1 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 63.5 156.1 moveto
+60 146.1 lineto
+56.5 156.1 lineto
+closepath stroke
+grestore
+% Year 5, Semester 2
+% Wildcard node added automatic in EG.
+gsave
+0.96863 0.24706 1 nodecolor
+newpath 108.34 74 moveto
+108.34 74 11.66 74 11.66 74 curveto
+5.66 74 -.34 68 -.34 62 curveto
+-.34 62 -.34 50 -.34 50 curveto
+-.34 44 5.66 38 11.66 38 curveto
+11.66 38 108.34 38 108.34 38 curveto
+114.34 38 120.34 44 120.34 50 curveto
+120.34 50 120.34 62 120.34 62 curveto
+120.34 68 114.34 74 108.34 74 curveto
+closepath fill
+1 setlinewidth
+filled
+0.96863 0.24706 1 nodecolor
+newpath 108.34 74 moveto
+108.34 74 11.66 74 11.66 74 curveto
+5.66 74 -.34 68 -.34 62 curveto
+-.34 62 -.34 50 -.34 50 curveto
+-.34 44 5.66 38 11.66 38 curveto
+11.66 38 108.34 38 108.34 38 curveto
+114.34 38 120.34 44 120.34 50 curveto
+120.34 50 120.34 62 120.34 62 curveto
+120.34 68 114.34 74 108.34 74 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+7.44 51.8 moveto 105.12 (Year 5, Semester 2) alignedtext
+grestore
+% Year 5, Semester 1->Year 5, Semester 2
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 60 109.7 moveto
+60 101.98 60 92.71 60 84.11 curveto
+stroke
+0 0 0 edgecolor
+newpath 63.5 84.1 moveto
+60 74.1 lineto
+56.5 84.1 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 63.5 84.1 moveto
+60 74.1 lineto
+56.5 84.1 lineto
+closepath stroke
+grestore
+% ELM
+% Wildcard node added automatic in EG.
+gsave
+[ /Rect [ 598 758 652 794 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI (http://testing.sjsu.edu/eptelm) >>
+  /Subtype /Link
+/ANN pdfmark
+0.96863 0.24706 1 nodecolor
+newpath 640 794 moveto
+640 794 610 794 610 794 curveto
+604 794 598 788 598 782 curveto
+598 782 598 770 598 770 curveto
+598 764 604 758 610 758 curveto
+610 758 640 758 640 758 curveto
+646 758 652 764 652 770 curveto
+652 770 652 782 652 782 curveto
+652 788 646 794 640 794 curveto
+closepath fill
+1 setlinewidth
+filled
+0.96863 0.24706 1 nodecolor
+newpath 640 794 moveto
+640 794 610 794 610 794 curveto
+604 794 598 788 598 782 curveto
+598 782 598 770 598 770 curveto
+598 764 604 758 610 758 curveto
+610 758 640 758 640 758 curveto
+646 758 652 764 652 770 curveto
+652 770 652 782 652 782 curveto
+652 788 646 794 640 794 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+610.22 771.8 moveto 29.55 (ELM) alignedtext
+grestore
+% MATH30
+% Wildcard node added automatic in EG.
+gsave
+[ /Rect [ 501.42 686 574 722 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI (http://info.sjsu.edu/web-dbgen/catalog/courses/MATH030.html) >>
+  /Subtype /Link
+/ANN pdfmark
+0 0 0.75294 nodecolor
+newpath 562.38 722 moveto
+562.38 722 513.62 722 513.62 722 curveto
+507.62 722 501.62 716 501.62 710 curveto
+501.62 710 501.62 698 501.62 698 curveto
+501.62 692 507.62 686 513.62 686 curveto
+513.62 686 562.38 686 562.38 686 curveto
+568.38 686 574.38 692 574.38 698 curveto
+574.38 698 574.38 710 574.38 710 curveto
+574.38 716 568.38 722 562.38 722 curveto
+closepath fill
+1 setlinewidth
+filled
+0 0 0.75294 nodecolor
+newpath 562.38 722 moveto
+562.38 722 513.62 722 513.62 722 curveto
+507.62 722 501.62 716 501.62 710 curveto
+501.62 710 501.62 698 501.62 698 curveto
+501.62 692 507.62 686 513.62 686 curveto
+513.62 686 562.38 686 562.38 686 curveto
+568.38 686 574.38 692 574.38 698 curveto
+574.38 698 574.38 710 574.38 710 curveto
+574.38 716 568.38 722 562.38 722 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+509.42 699.8 moveto 57.17 (MATH 30) alignedtext
+grestore
+% ELM->MATH30
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 603.49 757.7 moveto
+592.54 748.88 579.05 738.03 567.18 728.47 curveto
+stroke
+0 0 0 edgecolor
+newpath 569.24 725.65 moveto
+559.26 722.1 lineto
+564.86 731.1 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 569.24 725.65 moveto
+559.26 722.1 lineto
+564.86 731.1 lineto
+closepath stroke
+grestore
+% MATH42
+% Wildcard node added automatic in EG.
+gsave
+[ /Rect [ 679.42 614 752 650 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI (http://info.sjsu.edu/web-dbgen/catalog/courses/MATH042.html) >>
+  /Subtype /Link
+/ANN pdfmark
+0 0 0.75294 nodecolor
+newpath 740.38 650 moveto
+740.38 650 691.62 650 691.62 650 curveto
+685.62 650 679.62 644 679.62 638 curveto
+679.62 638 679.62 626 679.62 626 curveto
+679.62 620 685.62 614 691.62 614 curveto
+691.62 614 740.38 614 740.38 614 curveto
+746.38 614 752.38 620 752.38 626 curveto
+752.38 626 752.38 638 752.38 638 curveto
+752.38 644 746.38 650 740.38 650 curveto
+closepath fill
+1 setlinewidth
+filled
+0 0 0.75294 nodecolor
+newpath 740.38 650 moveto
+740.38 650 691.62 650 691.62 650 curveto
+685.62 650 679.62 644 679.62 638 curveto
+679.62 638 679.62 626 679.62 626 curveto
+679.62 620 685.62 614 691.62 614 curveto
+691.62 614 740.38 614 740.38 614 curveto
+746.38 614 752.38 620 752.38 626 curveto
+752.38 626 752.38 638 752.38 638 curveto
+752.38 644 746.38 650 740.38 650 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+687.42 627.8 moveto 57.17 (MATH 42) alignedtext
+grestore
+% ELM->MATH42
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 635.98 757.87 moveto
+651.76 733.24 680.99 687.64 699.41 658.88 curveto
+stroke
+0 0 0 edgecolor
+newpath 702.54 660.5 moveto
+704.98 650.19 lineto
+696.64 656.72 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 702.54 660.5 moveto
+704.98 650.19 lineto
+696.64 656.72 lineto
+closepath stroke
+grestore
+% CS46A
+% Wildcard node added automatic in EG.
+gsave
+[ /Rect [ 584.52 614 665 650 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI (http://info.sjsu.edu/web-dbgen/catalog/courses/CS046A.html) >>
+  /Subtype /Link
+/ANN pdfmark
+0.16471 1 1 nodecolor
+newpath 653.22 650 moveto
+653.22 650 596.78 650 596.78 650 curveto
+590.78 650 584.78 644 584.78 638 curveto
+584.78 638 584.78 626 584.78 626 curveto
+584.78 620 590.78 614 596.78 614 curveto
+596.78 614 653.22 614 653.22 614 curveto
+659.22 614 665.22 620 665.22 626 curveto
+665.22 626 665.22 638 665.22 638 curveto
+665.22 644 659.22 650 653.22 650 curveto
+closepath fill
+1 setlinewidth
+filled
+0.16471 1 1 nodecolor
+newpath 653.22 650 moveto
+653.22 650 596.78 650 596.78 650 curveto
+590.78 650 584.78 644 584.78 638 curveto
+584.78 638 584.78 626 584.78 626 curveto
+584.78 620 590.78 614 596.78 614 curveto
+596.78 614 653.22 614 653.22 614 curveto
+659.22 614 665.22 620 665.22 626 curveto
+665.22 626 665.22 638 665.22 638 curveto
+665.22 644 659.22 650 653.22 650 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+592.52 627.8 moveto 64.96 (SE/CS 46A) alignedtext
+grestore
+% ELM->CS46A
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 625 757.87 moveto
+625 733.67 625 689.21 625 660.39 curveto
+stroke
+0 0 0 edgecolor
+newpath 628.5 660.19 moveto
+625 650.19 lineto
+621.5 660.19 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 628.5 660.19 moveto
+625 650.19 lineto
+621.5 660.19 lineto
+closepath stroke
+grestore
+% EPT
+% Wildcard node added automatic in EG.
+gsave
+[ /Rect [ 225 758 279 794 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI (http://testing.sjsu.edu/eptelm) >>
+  /Subtype /Link
+/ANN pdfmark
+0.96863 0.24706 1 nodecolor
+newpath 267 794 moveto
+267 794 237 794 237 794 curveto
+231 794 225 788 225 782 curveto
+225 782 225 770 225 770 curveto
+225 764 231 758 237 758 curveto
+237 758 267 758 267 758 curveto
+273 758 279 764 279 770 curveto
+279 770 279 782 279 782 curveto
+279 788 273 794 267 794 curveto
+closepath fill
+1 setlinewidth
+filled
+0.96863 0.24706 1 nodecolor
+newpath 267 794 moveto
+267 794 237 794 237 794 curveto
+231 794 225 788 225 782 curveto
+225 782 225 770 225 770 curveto
+225 764 231 758 237 758 curveto
+237 758 267 758 267 758 curveto
+273 758 279 764 279 770 curveto
+279 770 279 782 279 782 curveto
+279 788 273 794 267 794 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+239.56 771.8 moveto 24.89 (EPT) alignedtext
+grestore
+% ENGL1A
+% Wildcard node added automatic in EG.
+gsave
+[ /Rect [ 213.29 686 286 722 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI (http://info.sjsu.edu/web-dbgen/catalog/courses/ENGL001A.html) >>
+  /Subtype /Link
+/ANN pdfmark
+0 0 0.75294 nodecolor
+newpath 274.57 722 moveto
+274.57 722 225.43 722 225.43 722 curveto
+219.43 722 213.43 716 213.43 710 curveto
+213.43 710 213.43 698 213.43 698 curveto
+213.43 692 219.43 686 225.43 686 curveto
+225.43 686 274.57 686 274.57 686 curveto
+280.57 686 286.57 692 286.57 698 curveto
+286.57 698 286.57 710 286.57 710 curveto
+286.57 716 280.57 722 274.57 722 curveto
+closepath fill
+1 setlinewidth
+filled
+0 0 0.75294 nodecolor
+newpath 274.57 722 moveto
+274.57 722 225.43 722 225.43 722 curveto
+219.43 722 213.43 716 213.43 710 curveto
+213.43 710 213.43 698 213.43 698 curveto
+213.43 692 219.43 686 225.43 686 curveto
+225.43 686 274.57 686 274.57 686 curveto
+280.57 686 286.57 692 286.57 698 curveto
+286.57 698 286.57 710 286.57 710 curveto
+286.57 716 280.57 722 274.57 722 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+221.29 699.8 moveto 57.42 (ENGL 1A) alignedtext
+grestore
+% EPT->ENGL1A
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 251.51 757.7 moveto
+251.29 749.98 251.02 740.71 250.77 732.11 curveto
+stroke
+0 0 0 edgecolor
+newpath 254.27 732 moveto
+250.49 722.1 lineto
+247.28 732.2 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 254.27 732 moveto
+250.49 722.1 lineto
+247.28 732.2 lineto
+closepath stroke
+grestore
+% WST
+% Wildcard node added automatic in EG.
+gsave
+[ /Rect [ 157 758 211 794 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI (http://testing.sjsu.edu/wst) >>
+  /Subtype /Link
+/ANN pdfmark
+0.96863 0.24706 1 nodecolor
+newpath 199 794 moveto
+199 794 169 794 169 794 curveto
+163 794 157 788 157 782 curveto
+157 782 157 770 157 770 curveto
+157 764 163 758 169 758 curveto
+169 758 199 758 199 758 curveto
+205 758 211 764 211 770 curveto
+211 770 211 782 211 782 curveto
+211 788 205 794 199 794 curveto
+closepath fill
+1 setlinewidth
+filled
+0.96863 0.24706 1 nodecolor
+newpath 199 794 moveto
+199 794 169 794 169 794 curveto
+163 794 157 788 157 782 curveto
+157 782 157 770 157 770 curveto
+157 764 163 758 169 758 curveto
+169 758 199 758 199 758 curveto
+205 758 211 764 211 770 curveto
+211 770 211 782 211 782 curveto
+211 788 205 794 199 794 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+169.22 771.8 moveto 29.55 (WST) alignedtext
+grestore
+% ENGR100W
+% Wildcard node added automatic in EG.
+gsave
+[ /Rect [ 134.09 326 225 362 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI (http://info.sjsu.edu/web-dbgen/catalog/courses/ENGR100W.html) >>
+  /Subtype /Link
+/ANN pdfmark
+0 0 0.75294 nodecolor
+newpath 213.37 362 moveto
+213.37 362 146.63 362 146.63 362 curveto
+140.63 362 134.63 356 134.63 350 curveto
+134.63 350 134.63 338 134.63 338 curveto
+134.63 332 140.63 326 146.63 326 curveto
+146.63 326 213.37 326 213.37 326 curveto
+219.37 326 225.37 332 225.37 338 curveto
+225.37 338 225.37 350 225.37 350 curveto
+225.37 356 219.37 362 213.37 362 curveto
+closepath fill
+1 setlinewidth
+filled
+0 0 0.75294 nodecolor
+newpath 213.37 362 moveto
+213.37 362 146.63 362 146.63 362 curveto
+140.63 362 134.63 356 134.63 350 curveto
+134.63 350 134.63 338 134.63 338 curveto
+134.63 332 140.63 326 146.63 326 curveto
+146.63 326 213.37 326 213.37 326 curveto
+219.37 326 225.37 332 225.37 338 curveto
+225.37 338 225.37 350 225.37 350 curveto
+225.37 356 219.37 362 213.37 362 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+142.09 339.8 moveto 75.82 (ENGR 100W) alignedtext
+grestore
+% WST->ENGR100W
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 184 757.95 moveto
+184 731.29 184 678.11 184 633 curveto
+184 633 184 633 184 487 curveto
+184 446.98 182.39 400.64 181.22 372.07 curveto
+stroke
+0 0 0 edgecolor
+newpath 184.71 371.89 moveto
+180.79 362.04 lineto
+177.72 372.18 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 184.71 371.89 moveto
+180.79 362.04 lineto
+177.72 372.18 lineto
+closepath stroke
+grestore
+% ENGL1B
+% Wildcard node added automatic in EG.
+gsave
+[ /Rect [ 211.68 614 284 650 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI (http://info.sjsu.edu/web-dbgen/catalog/courses/ENGL001B.html) >>
+  /Subtype /Link
+/ANN pdfmark
+0 0 0.75294 nodecolor
+newpath 271.99 650 moveto
+271.99 650 224.01 650 224.01 650 curveto
+218.01 650 212.01 644 212.01 638 curveto
+212.01 638 212.01 626 212.01 626 curveto
+212.01 620 218.01 614 224.01 614 curveto
+224.01 614 271.99 614 271.99 614 curveto
+277.99 614 283.99 620 283.99 626 curveto
+283.99 626 283.99 638 283.99 638 curveto
+283.99 644 277.99 650 271.99 650 curveto
+closepath fill
+1 setlinewidth
+filled
+0 0 0.75294 nodecolor
+newpath 271.99 650 moveto
+271.99 650 224.01 650 224.01 650 curveto
+218.01 650 212.01 644 212.01 638 curveto
+212.01 638 212.01 626 212.01 626 curveto
+212.01 620 218.01 614 224.01 614 curveto
+224.01 614 271.99 614 271.99 614 curveto
+277.99 614 283.99 620 283.99 626 curveto
+283.99 626 283.99 638 283.99 638 curveto
+283.99 644 277.99 650 271.99 650 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+219.68 627.8 moveto 56.65 (ENGL 1B) alignedtext
+grestore
+% ENGL1A->ENGL1B
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 249.51 685.7 moveto
+249.29 677.98 249.02 668.71 248.77 660.11 curveto
+stroke
+0 0 0 edgecolor
+newpath 252.27 660 moveto
+248.49 650.1 lineto
+245.28 660.2 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 252.27 660 moveto
+248.49 650.1 lineto
+245.28 660.2 lineto
+closepath stroke
+grestore
+% ENGL1B->ENGR100W
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 244.44 613.97 moveto
+236.32 575.38 215.51 478.4 195 398 curveto
+192.82 389.44 190.25 380.15 187.87 371.77 curveto
+stroke
+0 0 0 edgecolor
+newpath 191.22 370.77 moveto
+185.09 362.12 lineto
+184.5 372.7 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 191.22 370.77 moveto
+185.09 362.12 lineto
+184.5 372.7 lineto
+closepath stroke
+grestore
+% CMPE187
+% Wildcard node added automatic in EG.
+gsave
+[ /Rect [ 182.57 182 281 218 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI (http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE187.html) >>
+  /Subtype /Link
+/ANN pdfmark
+0.83137 0.45098 0.93333 nodecolor
+newpath 269.14 218 moveto
+269.14 218 194.86 218 194.86 218 curveto
+188.86 218 182.86 212 182.86 206 curveto
+182.86 206 182.86 194 182.86 194 curveto
+182.86 188 188.86 182 194.86 182 curveto
+194.86 182 269.14 182 269.14 182 curveto
+275.14 182 281.14 188 281.14 194 curveto
+281.14 194 281.14 206 281.14 206 curveto
+281.14 212 275.14 218 269.14 218 curveto
+closepath fill
+1 setlinewidth
+filled
+0.83137 0.45098 0.93333 nodecolor
+newpath 269.14 218 moveto
+269.14 218 194.86 218 194.86 218 curveto
+188.86 218 182.86 212 182.86 206 curveto
+182.86 206 182.86 194 182.86 194 curveto
+182.86 188 188.86 182 194.86 182 curveto
+194.86 182 269.14 182 269.14 182 curveto
+275.14 182 281.14 188 281.14 194 curveto
+281.14 194 281.14 206 281.14 206 curveto
+281.14 212 275.14 218 269.14 218 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+190.57 195.8 moveto 82.85 (SE/CMPE 187) alignedtext
+grestore
+% ENGL1B->CMPE187
+% Wildcard node added automatic in EG.
+% ENGR10
+% Wildcard node added automatic in EG.
+gsave
+[ /Rect [ 749.19 686 820 722 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI (http://info.sjsu.edu/web-dbgen/catalog/courses/ENGR010.html) >>
+  /Subtype /Link
+/ANN pdfmark
+0 0 0.75294 nodecolor
+newpath 808.21 722 moveto
+808.21 722 761.79 722 761.79 722 curveto
+755.79 722 749.79 716 749.79 710 curveto
+749.79 710 749.79 698 749.79 698 curveto
+749.79 692 755.79 686 761.79 686 curveto
+761.79 686 808.21 686 808.21 686 curveto
+814.21 686 820.21 692 820.21 698 curveto
+820.21 698 820.21 710 820.21 710 curveto
+820.21 716 814.21 722 808.21 722 curveto
+closepath fill
+1 setlinewidth
+filled
+0 0 0.75294 nodecolor
+newpath 808.21 722 moveto
+808.21 722 761.79 722 761.79 722 curveto
+755.79 722 749.79 716 749.79 710 curveto
+749.79 710 749.79 698 749.79 698 curveto
+749.79 692 755.79 686 761.79 686 curveto
+761.79 686 808.21 686 808.21 686 curveto
+814.21 686 820.21 692 820.21 698 curveto
+820.21 698 820.21 710 820.21 710 curveto
+820.21 716 814.21 722 808.21 722 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+757.19 699.8 moveto 55.61 (ENGR 10) alignedtext
+grestore
+% CMPE195A
+% Wildcard node added automatic in EG.
+gsave
+[ /Rect [ 319.52 110 428 146 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI (http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE195A.html) >>
+  /Subtype /Link
+/ANN pdfmark
+0.83137 0.45098 0.93333 nodecolor
+newpath 416.22 146 moveto
+416.22 146 331.78 146 331.78 146 curveto
+325.78 146 319.78 140 319.78 134 curveto
+319.78 134 319.78 122 319.78 122 curveto
+319.78 116 325.78 110 331.78 110 curveto
+331.78 110 416.22 110 416.22 110 curveto
+422.22 110 428.22 116 428.22 122 curveto
+428.22 122 428.22 134 428.22 134 curveto
+428.22 140 422.22 146 416.22 146 curveto
+closepath fill
+1 setlinewidth
+filled
+0.83137 0.45098 0.93333 nodecolor
+newpath 416.22 146 moveto
+416.22 146 331.78 146 331.78 146 curveto
+325.78 146 319.78 140 319.78 134 curveto
+319.78 134 319.78 122 319.78 122 curveto
+319.78 116 325.78 110 331.78 110 curveto
+331.78 110 416.22 110 416.22 110 curveto
+422.22 110 428.22 116 428.22 122 curveto
+428.22 122 428.22 134 428.22 134 curveto
+428.22 140 422.22 146 416.22 146 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+327.52 123.8 moveto 92.96 (SE/CMPE 195A) alignedtext
+grestore
+% ENGR100W->CMPE195A
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 173.24 325.82 moveto
+161.88 293.83 143.26 224.54 176 182 curveto
+212.28 134.87 247.96 159.54 309.83 146.31 curveto
+stroke
+0 0 0 edgecolor
+newpath 310.67 149.7 moveto
+319.57 143.95 lineto
+309.03 142.9 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 310.67 149.7 moveto
+319.57 143.95 lineto
+309.03 142.9 lineto
+closepath stroke
+grestore
+% ENGR195A
+% Wildcard node added automatic in EG.
+gsave
+[ /Rect [ 216.64 110 305 146 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI (http://info.sjsu.edu/web-dbgen/catalog/courses/ENGR195A.html) >>
+  /Subtype /Link
+/ANN pdfmark
+0 0 0.75294 nodecolor
+newpath 293.04 146 moveto
+293.04 146 228.96 146 228.96 146 curveto
+222.96 146 216.96 140 216.96 134 curveto
+216.96 134 216.96 122 216.96 122 curveto
+216.96 116 222.96 110 228.96 110 curveto
+228.96 110 293.04 110 293.04 110 curveto
+299.04 110 305.04 116 305.04 122 curveto
+305.04 122 305.04 134 305.04 134 curveto
+305.04 140 299.04 146 293.04 146 curveto
+closepath fill
+1 setlinewidth
+filled
+0 0 0.75294 nodecolor
+newpath 293.04 146 moveto
+293.04 146 228.96 146 228.96 146 curveto
+222.96 146 216.96 140 216.96 134 curveto
+216.96 134 216.96 122 216.96 122 curveto
+216.96 116 222.96 110 228.96 110 curveto
+228.96 110 293.04 110 293.04 110 curveto
+299.04 110 305.04 116 305.04 122 curveto
+305.04 122 305.04 134 305.04 134 curveto
+305.04 140 299.04 146 293.04 146 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+224.64 123.8 moveto 72.72 (ENGR 195A) alignedtext
+grestore
+% ENGR195B
+% Wildcard node added automatic in EG.
+gsave
+[ /Rect [ 217.03 38 304 74 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI (http://info.sjsu.edu/web-dbgen/catalog/courses/ENGR195B.html) >>
+  /Subtype /Link
+/ANN pdfmark
+0 0 0.75294 nodecolor
+newpath 292.46 74 moveto
+292.46 74 229.54 74 229.54 74 curveto
+223.54 74 217.54 68 217.54 62 curveto
+217.54 62 217.54 50 217.54 50 curveto
+217.54 44 223.54 38 229.54 38 curveto
+229.54 38 292.46 38 292.46 38 curveto
+298.46 38 304.46 44 304.46 50 curveto
+304.46 50 304.46 62 304.46 62 curveto
+304.46 68 298.46 74 292.46 74 curveto
+closepath fill
+1 setlinewidth
+filled
+0 0 0.75294 nodecolor
+newpath 292.46 74 moveto
+292.46 74 229.54 74 229.54 74 curveto
+223.54 74 217.54 68 217.54 62 curveto
+217.54 62 217.54 50 217.54 50 curveto
+217.54 44 223.54 38 229.54 38 curveto
+229.54 38 292.46 38 292.46 38 curveto
+298.46 38 304.46 44 304.46 50 curveto
+304.46 50 304.46 62 304.46 62 curveto
+304.46 68 298.46 74 292.46 74 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+225.03 51.8 moveto 71.95 (ENGR 195B) alignedtext
+grestore
+% ENGR195A->ENGR195B
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 261 109.7 moveto
+261 101.98 261 92.71 261 84.11 curveto
+stroke
+0 0 0 edgecolor
+newpath 264.5 84.1 moveto
+261 74.1 lineto
+257.5 84.1 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 264.5 84.1 moveto
+261 74.1 lineto
+257.5 84.1 lineto
+closepath stroke
+grestore
+% ENGR195A->CMPE195A
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+dashed
+0 0 0 edgecolor
+newpath 305.14 128 moveto
+309.98 128 314.82 128 319.67 128 curveto
+stroke
+grestore
+% CMPE195B
+% Wildcard node added automatic in EG.
+gsave
+[ /Rect [ 319.91 38 428 74 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI (http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE195B.html) >>
+  /Subtype /Link
+/ANN pdfmark
+0.83137 0.45098 0.93333 nodecolor
+newpath 416.14 74 moveto
+416.14 74 331.86 74 331.86 74 curveto
+325.86 74 319.86 68 319.86 62 curveto
+319.86 62 319.86 50 319.86 50 curveto
+319.86 44 325.86 38 331.86 38 curveto
+331.86 38 416.14 38 416.14 38 curveto
+422.14 38 428.14 44 428.14 50 curveto
+428.14 50 428.14 62 428.14 62 curveto
+428.14 68 422.14 74 416.14 74 curveto
+closepath fill
+1 setlinewidth
+filled
+0.83137 0.45098 0.93333 nodecolor
+newpath 416.14 74 moveto
+416.14 74 331.86 74 331.86 74 curveto
+325.86 74 319.86 68 319.86 62 curveto
+319.86 62 319.86 50 319.86 50 curveto
+319.86 44 325.86 38 331.86 38 curveto
+331.86 38 416.14 38 416.14 38 curveto
+422.14 38 428.14 44 428.14 50 curveto
+428.14 50 428.14 62 428.14 62 curveto
+428.14 68 422.14 74 416.14 74 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+327.91 51.8 moveto 92.19 (SE/CMPE 195B) alignedtext
+grestore
+% ENGR195B->CMPE195B
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+dashed
+0 0 0 edgecolor
+newpath 304.7 56 moveto
+309.75 56 314.81 56 319.86 56 curveto
+stroke
+grestore
+% MATH31
+% Wildcard node added automatic in EG.
+gsave
+[ /Rect [ 362.42 542 435 578 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI (http://info.sjsu.edu/web-dbgen/catalog/courses/MATH031.html) >>
+  /Subtype /Link
+/ANN pdfmark
+0 0 0.75294 nodecolor
+newpath 423.38 578 moveto
+423.38 578 374.62 578 374.62 578 curveto
+368.62 578 362.62 572 362.62 566 curveto
+362.62 566 362.62 554 362.62 554 curveto
+362.62 548 368.62 542 374.62 542 curveto
+374.62 542 423.38 542 423.38 542 curveto
+429.38 542 435.38 548 435.38 554 curveto
+435.38 554 435.38 566 435.38 566 curveto
+435.38 572 429.38 578 423.38 578 curveto
+closepath fill
+1 setlinewidth
+filled
+0 0 0.75294 nodecolor
+newpath 423.38 578 moveto
+423.38 578 374.62 578 374.62 578 curveto
+368.62 578 362.62 572 362.62 566 curveto
+362.62 566 362.62 554 362.62 554 curveto
+362.62 548 368.62 542 374.62 542 curveto
+374.62 542 423.38 542 423.38 542 curveto
+429.38 542 435.38 548 435.38 554 curveto
+435.38 554 435.38 566 435.38 566 curveto
+435.38 572 429.38 578 423.38 578 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+370.42 555.8 moveto 57.17 (MATH 31) alignedtext
+grestore
+% MATH30->MATH31
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 521.23 685.87 moveto
+496.71 660.82 450.93 614.05 422.89 585.41 curveto
+stroke
+0 0 0 edgecolor
+newpath 425.32 582.89 moveto
+415.83 578.19 lineto
+420.32 587.78 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 425.32 582.89 moveto
+415.83 578.19 lineto
+420.32 587.78 lineto
+closepath stroke
+grestore
+% PHYS50
+% Wildcard node added automatic in EG.
+gsave
+[ /Rect [ 464.35 470 533 506 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI (http://info.sjsu.edu/web-dbgen/catalog/courses/PHYS050.html) >>
+  /Subtype /Link
+/ANN pdfmark
+0 0 0.75294 nodecolor
+newpath 521.47 506 moveto
+521.47 506 476.53 506 476.53 506 curveto
+470.53 506 464.53 500 464.53 494 curveto
+464.53 494 464.53 482 464.53 482 curveto
+464.53 476 470.53 470 476.53 470 curveto
+476.53 470 521.47 470 521.47 470 curveto
+527.47 470 533.47 476 533.47 482 curveto
+533.47 482 533.47 494 533.47 494 curveto
+533.47 500 527.47 506 521.47 506 curveto
+closepath fill
+1 setlinewidth
+filled
+0 0 0.75294 nodecolor
+newpath 521.47 506 moveto
+521.47 506 476.53 506 476.53 506 curveto
+470.53 506 464.53 500 464.53 494 curveto
+464.53 494 464.53 482 464.53 482 curveto
+464.53 476 470.53 470 476.53 470 curveto
+476.53 470 521.47 470 521.47 470 curveto
+527.47 470 533.47 476 533.47 482 curveto
+533.47 482 533.47 494 533.47 494 curveto
+533.47 500 527.47 506 521.47 506 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+472.35 483.8 moveto 53.29 (PHYS 50) alignedtext
+grestore
+% MATH30->PHYS50
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 534.87 685.85 moveto
+528.11 648.75 512.09 560.81 503.94 516.1 curveto
+stroke
+0 0 0 edgecolor
+newpath 507.38 515.44 moveto
+502.14 506.23 lineto
+500.49 516.7 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 507.38 515.44 moveto
+502.14 506.23 lineto
+500.49 516.7 lineto
+closepath stroke
+grestore
+% CS146
+% Wildcard node added automatic in EG.
+gsave
+[ /Rect [ 583.07 398 660 434 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI (http://info.sjsu.edu/web-dbgen/catalog/courses/CS146.html) >>
+  /Subtype /Link
+/ANN pdfmark
+0.16471 1 1 nodecolor
+newpath 648.39 434 moveto
+648.39 434 595.61 434 595.61 434 curveto
+589.61 434 583.61 428 583.61 422 curveto
+583.61 422 583.61 410 583.61 410 curveto
+583.61 404 589.61 398 595.61 398 curveto
+595.61 398 648.39 398 648.39 398 curveto
+654.39 398 660.39 404 660.39 410 curveto
+660.39 410 660.39 422 660.39 422 curveto
+660.39 428 654.39 434 648.39 434 curveto
+closepath fill
+1 setlinewidth
+filled
+0.16471 1 1 nodecolor
+newpath 648.39 434 moveto
+648.39 434 595.61 434 595.61 434 curveto
+589.61 434 583.61 428 583.61 422 curveto
+583.61 422 583.61 410 583.61 410 curveto
+583.61 404 589.61 398 595.61 398 curveto
+595.61 398 648.39 398 648.39 398 curveto
+654.39 398 660.39 404 660.39 410 curveto
+660.39 410 660.39 422 660.39 422 curveto
+660.39 428 654.39 434 648.39 434 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+591.07 411.8 moveto 61.85 (SE/CS 146) alignedtext
+grestore
+% MATH30->CS146
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 543 685.97 moveto
+557.06 638.09 597.02 502.06 614.1 443.9 curveto
+stroke
+0 0 0 edgecolor
+newpath 617.46 444.89 moveto
+616.92 434.31 lineto
+610.74 442.91 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 617.46 444.89 moveto
+616.92 434.31 lineto
+610.74 442.91 lineto
+closepath stroke
+grestore
+% PHYS51
+% Wildcard node added automatic in EG.
+gsave
+[ /Rect [ 387.35 398 456 434 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI (http://info.sjsu.edu/web-dbgen/catalog/courses/PHYS051.html) >>
+  /Subtype /Link
+/ANN pdfmark
+0 0 0.75294 nodecolor
+newpath 444.47 434 moveto
+444.47 434 399.53 434 399.53 434 curveto
+393.53 434 387.53 428 387.53 422 curveto
+387.53 422 387.53 410 387.53 410 curveto
+387.53 404 393.53 398 399.53 398 curveto
+399.53 398 444.47 398 444.47 398 curveto
+450.47 398 456.47 404 456.47 410 curveto
+456.47 410 456.47 422 456.47 422 curveto
+456.47 428 450.47 434 444.47 434 curveto
+closepath fill
+1 setlinewidth
+filled
+0 0 0.75294 nodecolor
+newpath 444.47 434 moveto
+444.47 434 399.53 434 399.53 434 curveto
+393.53 434 387.53 428 387.53 422 curveto
+387.53 422 387.53 410 387.53 410 curveto
+387.53 404 393.53 398 399.53 398 curveto
+399.53 398 444.47 398 444.47 398 curveto
+450.47 398 456.47 404 456.47 410 curveto
+456.47 410 456.47 422 456.47 422 curveto
+456.47 428 450.47 434 444.47 434 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+395.35 411.8 moveto 53.29 (PHYS 51) alignedtext
+grestore
+% MATH31->PHYS51
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 403.78 541.93 moveto
+406.52 531.6 409.84 518.13 412 506 curveto
+415.66 485.46 418.23 462.01 419.85 444.34 curveto
+stroke
+0 0 0 edgecolor
+newpath 423.35 444.42 moveto
+420.73 434.16 lineto
+416.38 443.81 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 423.35 444.42 moveto
+420.73 434.16 lineto
+416.38 443.81 lineto
+closepath stroke
+grestore
+% MATH32
+% Wildcard node added automatic in EG.
+gsave
+[ /Rect [ 332.42 470 405 506 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI (http://info.sjsu.edu/web-dbgen/catalog/courses/MATH032.html) >>
+  /Subtype /Link
+/ANN pdfmark
+0 0 0.75294 nodecolor
+newpath 393.38 506 moveto
+393.38 506 344.62 506 344.62 506 curveto
+338.62 506 332.62 500 332.62 494 curveto
+332.62 494 332.62 482 332.62 482 curveto
+332.62 476 338.62 470 344.62 470 curveto
+344.62 470 393.38 470 393.38 470 curveto
+399.38 470 405.38 476 405.38 482 curveto
+405.38 482 405.38 494 405.38 494 curveto
+405.38 500 399.38 506 393.38 506 curveto
+closepath fill
+1 setlinewidth
+filled
+0 0 0.75294 nodecolor
+newpath 393.38 506 moveto
+393.38 506 344.62 506 344.62 506 curveto
+338.62 506 332.62 500 332.62 494 curveto
+332.62 494 332.62 482 332.62 482 curveto
+332.62 476 338.62 470 344.62 470 curveto
+344.62 470 393.38 470 393.38 470 curveto
+399.38 470 405.38 476 405.38 482 curveto
+405.38 482 405.38 494 405.38 494 curveto
+405.38 500 399.38 506 393.38 506 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+340.42 483.8 moveto 57.17 (MATH 32) alignedtext
+grestore
+% MATH31->MATH32
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 391.58 541.7 moveto
+388.21 533.81 384.13 524.3 380.38 515.55 curveto
+stroke
+0 0 0 edgecolor
+newpath 383.49 513.92 moveto
+376.33 506.1 lineto
+377.05 516.67 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 383.49 513.92 moveto
+376.33 506.1 lineto
+377.05 516.67 lineto
+closepath stroke
+grestore
+% MATH123
+% Wildcard node added automatic in EG.
+gsave
+[ /Rect [ 269.92 326 350 362 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI (http://info.sjsu.edu/web-dbgen/catalog/courses/MATH123.html) >>
+  /Subtype /Link
+/ANN pdfmark
+0 0 0.75294 nodecolor
+newpath 338.13 362 moveto
+338.13 362 281.87 362 281.87 362 curveto
+275.87 362 269.87 356 269.87 350 curveto
+269.87 350 269.87 338 269.87 338 curveto
+269.87 332 275.87 326 281.87 326 curveto
+281.87 326 338.13 326 338.13 326 curveto
+344.13 326 350.13 332 350.13 338 curveto
+350.13 338 350.13 350 350.13 350 curveto
+350.13 356 344.13 362 338.13 362 curveto
+closepath fill
+1 setlinewidth
+filled
+0 0 0.75294 nodecolor
+newpath 338.13 362 moveto
+338.13 362 281.87 362 281.87 362 curveto
+275.87 362 269.87 356 269.87 350 curveto
+269.87 350 269.87 338 269.87 338 curveto
+269.87 332 275.87 326 281.87 326 curveto
+281.87 326 338.13 326 338.13 326 curveto
+344.13 326 350.13 332 350.13 338 curveto
+350.13 338 350.13 350 350.13 350 curveto
+350.13 356 344.13 362 338.13 362 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+277.92 339.8 moveto 64.17 (MATH 123) alignedtext
+grestore
+% MATH31->MATH123
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 363.08 541.89 moveto
+348.8 533.2 333.73 521.21 325 506 curveto
+301.04 464.26 302.45 406.22 305.99 372.43 curveto
+stroke
+0 0 0 edgecolor
+newpath 309.48 372.7 moveto
+307.18 362.36 lineto
+302.53 371.88 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 309.48 372.7 moveto
+307.18 362.36 lineto
+302.53 371.88 lineto
+closepath stroke
+grestore
+% PHYS50->PHYS51
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 479.97 469.7 moveto
+470.46 461.05 458.79 450.45 448.43 441.03 curveto
+stroke
+0 0 0 edgecolor
+newpath 450.57 438.24 moveto
+440.81 434.1 lineto
+445.86 443.42 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 450.57 438.24 moveto
+440.81 434.1 lineto
+445.86 443.42 lineto
+closepath stroke
+grestore
+% ISE130
+% Wildcard node added automatic in EG.
+gsave
+[ /Rect [ 284.11 254 377 290 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI (http://info.sjsu.edu/web-dbgen/catalog/courses/ISE130.html) >>
+  /Subtype /Link
+/ANN pdfmark
+0 0 0.75294 nodecolor
+newpath 365.34 290 moveto
+365.34 290 296.66 290 296.66 290 curveto
+290.66 290 284.66 284 284.66 278 curveto
+284.66 278 284.66 266 284.66 266 curveto
+284.66 260 290.66 254 296.66 254 curveto
+296.66 254 365.34 254 365.34 254 curveto
+371.34 254 377.34 260 377.34 266 curveto
+377.34 266 377.34 278 377.34 278 curveto
+377.34 284 371.34 290 365.34 290 curveto
+closepath fill
+1 setlinewidth
+filled
+0 0 0.75294 nodecolor
+newpath 365.34 290 moveto
+365.34 290 296.66 290 296.66 290 curveto
+290.66 290 284.66 284 284.66 278 curveto
+284.66 278 284.66 266 284.66 266 curveto
+284.66 260 290.66 254 296.66 254 curveto
+296.66 254 365.34 254 365.34 254 curveto
+371.34 254 377.34 260 377.34 266 curveto
+377.34 266 377.34 278 377.34 278 curveto
+377.34 284 371.34 290 365.34 290 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+300.67 274.8 moveto 60.66 (ISE 130 or) alignedtext
+0 0 0 nodecolor
+14 /Times-Roman set_font
+292.11 260.8 moveto 77.78 ( MATH 161A) alignedtext
+grestore
+% MATH32->ISE130
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 369.83 469.72 moveto
+370.81 439.84 370.81 376.85 357 326 curveto
+354.5 316.8 350.39 307.29 346.16 298.91 curveto
+stroke
+0 0 0 edgecolor
+newpath 349.21 297.19 moveto
+341.42 290.01 lineto
+343.03 300.48 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 349.21 297.19 moveto
+341.42 290.01 lineto
+343.03 300.48 lineto
+closepath stroke
+grestore
+% CS46B
+% Wildcard node added automatic in EG.
+gsave
+[ /Rect [ 675.91 542 756 578 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI (http://info.sjsu.edu/web-dbgen/catalog/courses/CS046B.html) >>
+  /Subtype /Link
+/ANN pdfmark
+0.16471 1 1 nodecolor
+newpath 744.14 578 moveto
+744.14 578 687.86 578 687.86 578 curveto
+681.86 578 675.86 572 675.86 566 curveto
+675.86 566 675.86 554 675.86 554 curveto
+675.86 548 681.86 542 687.86 542 curveto
+687.86 542 744.14 542 744.14 542 curveto
+750.14 542 756.14 548 756.14 554 curveto
+756.14 554 756.14 566 756.14 566 curveto
+756.14 572 750.14 578 744.14 578 curveto
+closepath fill
+1 setlinewidth
+filled
+0.16471 1 1 nodecolor
+newpath 744.14 578 moveto
+744.14 578 687.86 578 687.86 578 curveto
+681.86 578 675.86 572 675.86 566 curveto
+675.86 566 675.86 554 675.86 554 curveto
+675.86 548 681.86 542 687.86 542 curveto
+687.86 542 744.14 542 744.14 542 curveto
+750.14 542 756.14 548 756.14 554 curveto
+756.14 554 756.14 566 756.14 566 curveto
+756.14 572 750.14 578 744.14 578 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+683.91 555.8 moveto 64.19 (SE/CS 46B) alignedtext
+grestore
+% MATH42->CS46B
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+dashed
+0 0 0 edgecolor
+newpath 716 613.7 moveto
+716 602.85 716 588.92 716 578.1 curveto
+stroke
+grestore
+% MATH42->CS146
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 697.28 613.9 moveto
+687.63 604.2 676.37 591.35 669 578 curveto
+644.99 534.53 632.11 477.53 626.19 444.31 curveto
+stroke
+0 0 0 edgecolor
+newpath 629.63 443.68 moveto
+624.5 434.41 lineto
+622.73 444.86 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 629.63 443.68 moveto
+624.5 434.41 lineto
+622.73 444.86 lineto
+closepath stroke
+grestore
+% CS151
+% Wildcard node added automatic in EG.
+gsave
+[ /Rect [ 806.19 326 863 362 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI (http://info.sjsu.edu/web-dbgen/catalog/courses/CS151.html) >>
+  /Subtype /Link
+/ANN pdfmark
+0.16471 1 1 nodecolor
+newpath 851.22 362 moveto
+851.22 362 818.78 362 818.78 362 curveto
+812.78 362 806.78 356 806.78 350 curveto
+806.78 350 806.78 338 806.78 338 curveto
+806.78 332 812.78 326 818.78 326 curveto
+818.78 326 851.22 326 851.22 326 curveto
+857.22 326 863.22 332 863.22 338 curveto
+863.22 338 863.22 350 863.22 350 curveto
+863.22 356 857.22 362 851.22 362 curveto
+closepath fill
+1 setlinewidth
+filled
+0.16471 1 1 nodecolor
+newpath 851.22 362 moveto
+851.22 362 818.78 362 818.78 362 curveto
+812.78 362 806.78 356 806.78 350 curveto
+806.78 350 806.78 338 806.78 338 curveto
+806.78 332 812.78 326 818.78 326 curveto
+818.78 326 851.22 326 851.22 326 curveto
+857.22 326 863.22 332 863.22 338 curveto
+863.22 338 863.22 350 863.22 350 curveto
+863.22 356 857.22 362 851.22 362 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+814.19 339.8 moveto 41.62 (CS 151) alignedtext
+grestore
+% MATH42->CS151
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 736.15 613.66 moveto
+760.85 591.29 802.22 549.97 825 506 curveto
+847.38 462.79 846.64 446.53 843 398 curveto
+842.36 389.52 841.16 380.34 839.88 372.04 curveto
+stroke
+0 0 0 edgecolor
+newpath 843.32 371.41 moveto
+838.25 362.11 lineto
+836.42 372.55 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 843.32 371.41 moveto
+838.25 362.11 lineto
+836.42 372.55 lineto
+closepath stroke
+grestore
+% BIOL10
+% Wildcard node added automatic in EG.
+gsave
+[ /Rect [ 782.18 614 847 650 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI (http://info.sjsu.edu/web-dbgen/catalog/courses/BIOL010.html) >>
+  /Subtype /Link
+/ANN pdfmark
+0 0 0.75294 nodecolor
+newpath 835.24 650 moveto
+835.24 650 794.76 650 794.76 650 curveto
+788.76 650 782.76 644 782.76 638 curveto
+782.76 638 782.76 626 782.76 626 curveto
+782.76 620 788.76 614 794.76 614 curveto
+794.76 614 835.24 614 835.24 614 curveto
+841.24 614 847.24 620 847.24 626 curveto
+847.24 626 847.24 638 847.24 638 curveto
+847.24 644 841.24 650 835.24 650 curveto
+closepath fill
+1 setlinewidth
+filled
+0 0 0.75294 nodecolor
+newpath 835.24 650 moveto
+835.24 650 794.76 650 794.76 650 curveto
+788.76 650 782.76 644 782.76 638 curveto
+782.76 638 782.76 626 782.76 626 curveto
+782.76 620 788.76 614 794.76 614 curveto
+794.76 614 835.24 614 835.24 614 curveto
+841.24 614 847.24 620 847.24 626 curveto
+847.24 626 847.24 638 847.24 638 curveto
+847.24 644 841.24 650 835.24 650 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+790.18 627.8 moveto 49.65 (BIOL 10) alignedtext
+grestore
+% ISE130->CMPE195A
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 323.25 253.89 moveto
+316.06 235.43 307.88 205.52 318 182 curveto
+322.79 170.87 331.19 160.99 340.05 152.86 curveto
+stroke
+0 0 0 edgecolor
+newpath 342.54 155.34 moveto
+347.88 146.18 lineto
+338 150.01 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 342.54 155.34 moveto
+347.88 146.18 lineto
+338 150.01 lineto
+closepath stroke
+grestore
+% ISE164
+% Wildcard node added automatic in EG.
+gsave
+[ /Rect [ 795.25 110 856 146 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI (http://info.sjsu.edu/web-dbgen/catalog/courses/ISE164.html) >>
+  /Subtype /Link
+/ANN pdfmark
+0 0 0.75294 nodecolor
+newpath 844.13 146 moveto
+844.13 146 807.87 146 807.87 146 curveto
+801.87 146 795.87 140 795.87 134 curveto
+795.87 134 795.87 122 795.87 122 curveto
+795.87 116 801.87 110 807.87 110 curveto
+807.87 110 844.13 110 844.13 110 curveto
+850.13 110 856.13 116 856.13 122 curveto
+856.13 122 856.13 134 856.13 134 curveto
+856.13 140 850.13 146 844.13 146 curveto
+closepath fill
+1 setlinewidth
+filled
+0 0 0.75294 nodecolor
+newpath 844.13 146 moveto
+844.13 146 807.87 146 807.87 146 curveto
+801.87 146 795.87 140 795.87 134 curveto
+795.87 134 795.87 122 795.87 122 curveto
+795.87 116 801.87 110 807.87 110 curveto
+807.87 110 844.13 110 844.13 110 curveto
+850.13 110 856.13 116 856.13 122 curveto
+856.13 122 856.13 134 856.13 134 curveto
+856.13 140 850.13 146 844.13 146 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+803.25 123.8 moveto 45.5 (ISE 164) alignedtext
+grestore
+% CS46A->CS46B
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 647.49 613.7 moveto
+658.96 604.88 673.06 594.03 685.48 584.47 curveto
+stroke
+0 0 0 edgecolor
+newpath 687.97 586.98 moveto
+693.76 578.1 lineto
+683.7 581.43 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 687.97 586.98 moveto
+693.76 578.1 lineto
+683.7 581.43 lineto
+closepath stroke
+grestore
+% CS46B->CS146
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 704.66 541.87 moveto
+688.36 517.24 658.17 471.64 639.13 442.88 curveto
+stroke
+0 0 0 edgecolor
+newpath 641.82 440.6 moveto
+633.38 434.19 lineto
+635.98 444.46 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 641.82 440.6 moveto
+633.38 434.19 lineto
+635.98 444.46 lineto
+closepath stroke
+grestore
+% CS46B->CS151
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 756.06 544.49 moveto
+774.03 535.98 793.87 523.41 806 506 curveto
+833.98 465.83 837.43 406.78 836.7 372.47 curveto
+stroke
+0 0 0 edgecolor
+newpath 840.19 372.13 moveto
+836.34 362.26 lineto
+833.19 372.38 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 840.19 372.13 moveto
+836.34 362.26 lineto
+833.19 372.38 lineto
+closepath stroke
+grestore
+% CMPE102
+% Wildcard node added automatic in EG.
+gsave
+[ /Rect [ 765.57 254 864 290 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI (http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE102.html) >>
+  /Subtype /Link
+/ANN pdfmark
+0.83137 0.45098 0.93333 nodecolor
+newpath 852.14 290 moveto
+852.14 290 777.86 290 777.86 290 curveto
+771.86 290 765.86 284 765.86 278 curveto
+765.86 278 765.86 266 765.86 266 curveto
+765.86 260 771.86 254 777.86 254 curveto
+777.86 254 852.14 254 852.14 254 curveto
+858.14 254 864.14 260 864.14 266 curveto
+864.14 266 864.14 278 864.14 278 curveto
+864.14 284 858.14 290 852.14 290 curveto
+closepath fill
+1 setlinewidth
+filled
+0.83137 0.45098 0.93333 nodecolor
+newpath 852.14 290 moveto
+852.14 290 777.86 290 777.86 290 curveto
+771.86 290 765.86 284 765.86 278 curveto
+765.86 278 765.86 266 765.86 266 curveto
+765.86 260 771.86 254 777.86 254 curveto
+777.86 254 852.14 254 852.14 254 curveto
+858.14 254 864.14 260 864.14 266 curveto
+864.14 266 864.14 278 864.14 278 curveto
+864.14 284 858.14 290 852.14 290 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+773.57 267.8 moveto 82.85 (SE/CMPE 102) alignedtext
+grestore
+% CS46B->CMPE102
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 726.85 541.93 moveto
+741.22 518.51 766.35 474.68 780 434 curveto
+795.5 387.79 787.72 373.41 799 326 curveto
+801.06 317.36 803.71 308.05 806.27 299.68 curveto
+stroke
+0 0 0 edgecolor
+newpath 809.64 300.63 moveto
+809.29 290.05 lineto
+802.96 298.54 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 809.64 300.63 moveto
+809.29 290.05 lineto
+802.96 298.54 lineto
+closepath stroke
+grestore
+% CMPE120
+% Wildcard node added automatic in EG.
+gsave
+[ /Rect [ 674.57 398 773 434 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI (http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE120.html) >>
+  /Subtype /Link
+/ANN pdfmark
+0.83137 0.45098 0.93333 nodecolor
+newpath 761.14 434 moveto
+761.14 434 686.86 434 686.86 434 curveto
+680.86 434 674.86 428 674.86 422 curveto
+674.86 422 674.86 410 674.86 410 curveto
+674.86 404 680.86 398 686.86 398 curveto
+686.86 398 761.14 398 761.14 398 curveto
+767.14 398 773.14 404 773.14 410 curveto
+773.14 410 773.14 422 773.14 422 curveto
+773.14 428 767.14 434 761.14 434 curveto
+closepath fill
+1 setlinewidth
+filled
+0.83137 0.45098 0.93333 nodecolor
+newpath 761.14 434 moveto
+761.14 434 686.86 434 686.86 434 curveto
+680.86 434 674.86 428 674.86 422 curveto
+674.86 422 674.86 410 674.86 410 curveto
+674.86 404 680.86 398 686.86 398 curveto
+686.86 398 761.14 398 761.14 398 curveto
+767.14 398 773.14 404 773.14 410 curveto
+773.14 410 773.14 422 773.14 422 curveto
+773.14 428 767.14 434 761.14 434 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+682.57 411.8 moveto 82.85 (SE/CMPE 120) alignedtext
+grestore
+% CS46B->CMPE120
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 716.96 541.87 moveto
+718.33 517.67 720.83 473.21 722.46 444.39 curveto
+stroke
+0 0 0 edgecolor
+newpath 725.96 444.37 moveto
+723.03 434.19 lineto
+718.97 443.98 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 725.96 444.37 moveto
+723.03 434.19 lineto
+718.97 443.98 lineto
+closepath stroke
+grestore
+% CMPE131
+% Wildcard node added automatic in EG.
+gsave
+[ /Rect [ 470.57 398 569 434 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI (http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE131.html) >>
+  /Subtype /Link
+/ANN pdfmark
+0.83137 0.45098 0.93333 nodecolor
+newpath 557.14 434 moveto
+557.14 434 482.86 434 482.86 434 curveto
+476.86 434 470.86 428 470.86 422 curveto
+470.86 422 470.86 410 470.86 410 curveto
+470.86 404 476.86 398 482.86 398 curveto
+482.86 398 557.14 398 557.14 398 curveto
+563.14 398 569.14 404 569.14 410 curveto
+569.14 410 569.14 422 569.14 422 curveto
+569.14 428 563.14 434 557.14 434 curveto
+closepath fill
+1 setlinewidth
+filled
+0.83137 0.45098 0.93333 nodecolor
+newpath 557.14 434 moveto
+557.14 434 482.86 434 482.86 434 curveto
+476.86 434 470.86 428 470.86 422 curveto
+470.86 422 470.86 410 470.86 410 curveto
+470.86 404 476.86 398 482.86 398 curveto
+482.86 398 557.14 398 557.14 398 curveto
+563.14 398 569.14 404 569.14 410 curveto
+569.14 410 569.14 422 569.14 422 curveto
+569.14 428 563.14 434 557.14 434 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+478.57 411.8 moveto 82.85 (SE/CMPE 131) alignedtext
+grestore
+% CS46B->CMPE131
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 692.36 541.87 moveto
+657.33 516.5 591.57 468.85 552.19 440.32 curveto
+stroke
+0 0 0 edgecolor
+newpath 553.88 437.22 moveto
+543.73 434.19 lineto
+549.77 442.89 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 553.88 437.22 moveto
+543.73 434.19 lineto
+549.77 442.89 lineto
+closepath stroke
+grestore
+% CS149
+% Wildcard node added automatic in EG.
+gsave
+[ /Rect [ 687.07 182 764 218 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI (http://info.sjsu.edu/web-dbgen/catalog/courses/CS149.html) >>
+  /Subtype /Link
+/ANN pdfmark
+0.16471 1 1 nodecolor
+newpath 752.39 218 moveto
+752.39 218 699.61 218 699.61 218 curveto
+693.61 218 687.61 212 687.61 206 curveto
+687.61 206 687.61 194 687.61 194 curveto
+687.61 188 693.61 182 699.61 182 curveto
+699.61 182 752.39 182 752.39 182 curveto
+758.39 182 764.39 188 764.39 194 curveto
+764.39 194 764.39 206 764.39 206 curveto
+764.39 212 758.39 218 752.39 218 curveto
+closepath fill
+1 setlinewidth
+filled
+0.16471 1 1 nodecolor
+newpath 752.39 218 moveto
+752.39 218 699.61 218 699.61 218 curveto
+693.61 218 687.61 212 687.61 206 curveto
+687.61 206 687.61 194 687.61 194 curveto
+687.61 188 693.61 182 699.61 182 curveto
+699.61 182 752.39 182 752.39 182 curveto
+758.39 182 764.39 188 764.39 194 curveto
+764.39 194 764.39 206 764.39 206 curveto
+764.39 212 758.39 218 752.39 218 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+695.07 195.8 moveto 61.85 (SE/CS 149) alignedtext
+grestore
+% CS146->CS149
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 630.33 397.85 moveto
+648.48 360.52 691.64 271.69 713.24 227.26 curveto
+stroke
+0 0 0 edgecolor
+newpath 716.4 228.76 moveto
+717.63 218.23 lineto
+710.11 225.7 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 716.4 228.76 moveto
+717.63 218.23 lineto
+710.11 225.7 lineto
+closepath stroke
+grestore
+% CS157A
+% Wildcard node added automatic in EG.
+gsave
+[ /Rect [ 452.02 254 539 290 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI (http://info.sjsu.edu/web-dbgen/catalog/courses/CS157A.html) >>
+  /Subtype /Link
+/ANN pdfmark
+0.16471 1 1 nodecolor
+newpath 527.47 290 moveto
+527.47 290 464.53 290 464.53 290 curveto
+458.53 290 452.53 284 452.53 278 curveto
+452.53 278 452.53 266 452.53 266 curveto
+452.53 260 458.53 254 464.53 254 curveto
+464.53 254 527.47 254 527.47 254 curveto
+533.47 254 539.47 260 539.47 266 curveto
+539.47 266 539.47 278 539.47 278 curveto
+539.47 284 533.47 290 527.47 290 curveto
+closepath fill
+1 setlinewidth
+filled
+0.16471 1 1 nodecolor
+newpath 527.47 290 moveto
+527.47 290 464.53 290 464.53 290 curveto
+458.53 290 452.53 284 452.53 278 curveto
+452.53 278 452.53 266 452.53 266 curveto
+452.53 260 458.53 254 464.53 254 curveto
+464.53 254 527.47 254 527.47 254 curveto
+533.47 254 539.47 260 539.47 266 curveto
+539.47 266 539.47 278 539.47 278 curveto
+539.47 284 533.47 290 527.47 290 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+460.02 267.8 moveto 71.96 (SE/CS 157A) alignedtext
+grestore
+% CS146->CS157A
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 610.57 397.84 moveto
+597.9 379.33 576.44 349.38 555 326 curveto
+545.75 315.91 534.78 305.66 524.83 296.9 curveto
+stroke
+0 0 0 edgecolor
+newpath 526.97 294.13 moveto
+517.12 290.23 lineto
+522.39 299.42 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 526.97 294.13 moveto
+517.12 290.23 lineto
+522.39 299.42 lineto
+closepath stroke
+grestore
+% CS166
+% Wildcard node added automatic in EG.
+gsave
+[ /Rect [ 584.07 254 661 290 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI (http://info.sjsu.edu/web-dbgen/catalog/courses/CS166.html) >>
+  /Subtype /Link
+/ANN pdfmark
+0.16471 1 1 nodecolor
+newpath 649.39 290 moveto
+649.39 290 596.61 290 596.61 290 curveto
+590.61 290 584.61 284 584.61 278 curveto
+584.61 278 584.61 266 584.61 266 curveto
+584.61 260 590.61 254 596.61 254 curveto
+596.61 254 649.39 254 649.39 254 curveto
+655.39 254 661.39 260 661.39 266 curveto
+661.39 266 661.39 278 661.39 278 curveto
+661.39 284 655.39 290 649.39 290 curveto
+closepath fill
+1 setlinewidth
+filled
+0.16471 1 1 nodecolor
+newpath 649.39 290 moveto
+649.39 290 596.61 290 596.61 290 curveto
+590.61 290 584.61 284 584.61 278 curveto
+584.61 278 584.61 266 584.61 266 curveto
+584.61 260 590.61 254 596.61 254 curveto
+596.61 254 649.39 254 649.39 254 curveto
+655.39 254 661.39 260 661.39 266 curveto
+661.39 266 661.39 278 661.39 278 curveto
+661.39 284 655.39 290 649.39 290 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+592.07 267.8 moveto 61.85 (SE/CS 166) alignedtext
+grestore
+% CS146->CS166
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 622.12 397.87 moveto
+622.29 373.67 622.6 329.21 622.81 300.39 curveto
+stroke
+0 0 0 edgecolor
+newpath 626.31 300.21 moveto
+622.88 290.19 lineto
+619.31 300.16 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 626.31 300.21 moveto
+622.88 290.19 lineto
+619.31 300.16 lineto
+closepath stroke
+grestore
+% CMPE148
+% Wildcard node added automatic in EG.
+gsave
+[ /Rect [ 543.57 182 642 218 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI (http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE148.html) >>
+  /Subtype /Link
+/ANN pdfmark
+0.83137 0.45098 0.93333 nodecolor
+newpath 630.14 218 moveto
+630.14 218 555.86 218 555.86 218 curveto
+549.86 218 543.86 212 543.86 206 curveto
+543.86 206 543.86 194 543.86 194 curveto
+543.86 188 549.86 182 555.86 182 curveto
+555.86 182 630.14 182 630.14 182 curveto
+636.14 182 642.14 188 642.14 194 curveto
+642.14 194 642.14 206 642.14 206 curveto
+642.14 212 636.14 218 630.14 218 curveto
+closepath fill
+1 setlinewidth
+filled
+0.83137 0.45098 0.93333 nodecolor
+newpath 630.14 218 moveto
+630.14 218 555.86 218 555.86 218 curveto
+549.86 218 543.86 212 543.86 206 curveto
+543.86 206 543.86 194 543.86 194 curveto
+543.86 188 549.86 182 555.86 182 curveto
+555.86 182 630.14 182 630.14 182 curveto
+636.14 182 642.14 188 642.14 194 curveto
+642.14 194 642.14 206 642.14 206 curveto
+642.14 212 636.14 218 630.14 218 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+551.57 195.8 moveto 82.85 (SE/CMPE 148) alignedtext
+grestore
+% CS146->CMPE148
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 613.61 397.72 moveto
+602.63 374.08 583.98 329.99 577 290 curveto
+574.25 274.24 574.66 269.83 577 254 curveto
+578.28 245.35 580.67 236.15 583.22 227.89 curveto
+stroke
+0 0 0 edgecolor
+newpath 586.55 228.96 moveto
+586.35 218.37 lineto
+579.9 226.78 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 586.55 228.96 moveto
+586.35 218.37 lineto
+579.9 226.78 lineto
+closepath stroke
+grestore
+% CMPE172
+% Wildcard node added automatic in EG.
+gsave
+[ /Rect [ 676.57 110 775 146 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI (http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE172.html) >>
+  /Subtype /Link
+/ANN pdfmark
+0.83137 0.45098 0.93333 nodecolor
+newpath 763.14 146 moveto
+763.14 146 688.86 146 688.86 146 curveto
+682.86 146 676.86 140 676.86 134 curveto
+676.86 134 676.86 122 676.86 122 curveto
+676.86 116 682.86 110 688.86 110 curveto
+688.86 110 763.14 110 763.14 110 curveto
+769.14 110 775.14 116 775.14 122 curveto
+775.14 122 775.14 134 775.14 134 curveto
+775.14 140 769.14 146 763.14 146 curveto
+closepath fill
+1 setlinewidth
+filled
+0.83137 0.45098 0.93333 nodecolor
+newpath 763.14 146 moveto
+763.14 146 688.86 146 688.86 146 curveto
+682.86 146 676.86 140 676.86 134 curveto
+676.86 134 676.86 122 676.86 122 curveto
+676.86 116 682.86 110 688.86 110 curveto
+688.86 110 763.14 110 763.14 110 curveto
+769.14 110 775.14 116 775.14 122 curveto
+775.14 122 775.14 134 775.14 134 curveto
+775.14 140 769.14 146 763.14 146 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+684.57 123.8 moveto 82.85 (SE/CMPE 172) alignedtext
+grestore
+% CS149->CMPE172
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 726 181.7 moveto
+726 173.98 726 164.71 726 156.11 curveto
+stroke
+0 0 0 edgecolor
+newpath 729.5 156.1 moveto
+726 146.1 lineto
+722.5 156.1 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 729.5 156.1 moveto
+726 146.1 lineto
+722.5 156.1 lineto
+closepath stroke
+grestore
+% CMPE120->CS149
+% Wildcard node added automatic in EG.
+% CMPE120->CS166
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 711.82 397.87 moveto
+694.22 373.14 661.58 327.24 641.15 298.51 curveto
+stroke
+0 0 0 edgecolor
+newpath 643.87 296.31 moveto
+635.23 290.19 lineto
+638.17 300.37 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 643.87 296.31 moveto
+635.23 290.19 lineto
+638.17 300.37 lineto
+closepath stroke
+grestore
+% CMPE120->CMPE148
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 721.58 397.87 moveto
+716.43 366.56 701.99 299.16 668 254 curveto
+659.13 242.21 646.87 232.02 634.83 223.81 curveto
+stroke
+0 0 0 edgecolor
+newpath 636.45 220.69 moveto
+626.16 218.19 lineto
+632.65 226.57 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 636.45 220.69 moveto
+626.16 218.19 lineto
+632.65 226.57 lineto
+closepath stroke
+grestore
+% CMPE133
+% Wildcard node added automatic in EG.
+gsave
+[ /Rect [ 423.57 326 522 362 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI (http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE133.html) >>
+  /Subtype /Link
+/ANN pdfmark
+0.83137 0.45098 0.93333 nodecolor
+newpath 510.14 362 moveto
+510.14 362 435.86 362 435.86 362 curveto
+429.86 362 423.86 356 423.86 350 curveto
+423.86 350 423.86 338 423.86 338 curveto
+423.86 332 429.86 326 435.86 326 curveto
+435.86 326 510.14 326 510.14 326 curveto
+516.14 326 522.14 332 522.14 338 curveto
+522.14 338 522.14 350 522.14 350 curveto
+522.14 356 516.14 362 510.14 362 curveto
+closepath fill
+1 setlinewidth
+filled
+0.83137 0.45098 0.93333 nodecolor
+newpath 510.14 362 moveto
+510.14 362 435.86 362 435.86 362 curveto
+429.86 362 423.86 356 423.86 350 curveto
+423.86 350 423.86 338 423.86 338 curveto
+423.86 332 429.86 326 435.86 326 curveto
+435.86 326 510.14 326 510.14 326 curveto
+516.14 326 522.14 332 522.14 338 curveto
+522.14 338 522.14 350 522.14 350 curveto
+522.14 356 516.14 362 510.14 362 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+431.57 339.8 moveto 82.85 (SE/CMPE 133) alignedtext
+grestore
+% CMPE131->CMPE133
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 508.38 397.7 moveto
+502.86 389.47 496.15 379.48 490.07 370.42 curveto
+stroke
+0 0 0 edgecolor
+newpath 492.96 368.46 moveto
+484.48 362.1 lineto
+487.15 372.36 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 492.96 368.46 moveto
+484.48 362.1 lineto
+487.15 372.36 lineto
+closepath stroke
+grestore
+% CMPE131->CMPE187
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 485.37 397.89 moveto
+465.24 387.77 439.49 374.52 417 362 curveto
+389.83 346.88 384.56 340.41 357 326 curveto
+322.45 307.94 305.19 316.94 277 290 curveto
+259.09 272.89 247.15 247.11 240.09 227.69 curveto
+stroke
+0 0 0 edgecolor
+newpath 243.39 226.52 moveto
+236.84 218.2 lineto
+236.77 228.79 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 243.39 226.52 moveto
+236.84 218.2 lineto
+236.77 228.79 lineto
+closepath stroke
+grestore
+% CMPE131->CMPE195A
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 527.82 397.71 moveto
+535.19 378.55 543.19 347.52 529 326 curveto
+506.64 292.09 469.64 322.29 445 290 curveto
+415.6 251.48 452.18 225.09 430 182 curveto
+424.3 170.94 415.36 160.92 406.28 152.65 curveto
+stroke
+0 0 0 edgecolor
+newpath 408.55 149.98 moveto
+398.68 146.12 lineto
+403.99 155.29 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 408.55 149.98 moveto
+398.68 146.12 lineto
+403.99 155.29 lineto
+closepath stroke
+grestore
+% CMPE165
+% Wildcard node added automatic in EG.
+gsave
+[ /Rect [ 324.57 182 423 218 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI (http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE165.html) >>
+  /Subtype /Link
+/ANN pdfmark
+0.83137 0.45098 0.93333 nodecolor
+newpath 411.14 218 moveto
+411.14 218 336.86 218 336.86 218 curveto
+330.86 218 324.86 212 324.86 206 curveto
+324.86 206 324.86 194 324.86 194 curveto
+324.86 188 330.86 182 336.86 182 curveto
+336.86 182 411.14 182 411.14 182 curveto
+417.14 182 423.14 188 423.14 194 curveto
+423.14 194 423.14 206 423.14 206 curveto
+423.14 212 417.14 218 411.14 218 curveto
+closepath fill
+1 setlinewidth
+filled
+0.83137 0.45098 0.93333 nodecolor
+newpath 411.14 218 moveto
+411.14 218 336.86 218 336.86 218 curveto
+330.86 218 324.86 212 324.86 206 curveto
+324.86 206 324.86 194 324.86 194 curveto
+324.86 188 330.86 182 336.86 182 curveto
+336.86 182 411.14 182 411.14 182 curveto
+417.14 182 423.14 188 423.14 194 curveto
+423.14 194 423.14 206 423.14 206 curveto
+423.14 212 417.14 218 411.14 218 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+332.57 195.8 moveto 82.85 (SE/CMPE 165) alignedtext
+grestore
+% CMPE133->CMPE165
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 452.67 325.98 moveto
+441.79 316.2 428.69 303.25 419 290 curveto
+404.71 270.45 392.6 245.7 384.55 227.26 curveto
+stroke
+0 0 0 edgecolor
+newpath 387.75 225.84 moveto
+380.62 218 lineto
+381.31 228.57 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 387.75 225.84 moveto
+380.62 218 lineto
+381.31 228.57 lineto
+closepath stroke
+grestore
+% CMPE165->ENGR195A
+% Wildcard node added automatic in EG.
+% CMPE195A->CMPE195B
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 374 109.7 moveto
+374 101.98 374 92.71 374 84.11 curveto
+stroke
+0 0 0 edgecolor
+newpath 377.5 84.1 moveto
+374 74.1 lineto
+370.5 84.1 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 377.5 84.1 moveto
+374 74.1 lineto
+370.5 84.1 lineto
+closepath stroke
+grestore
+% Elective1
+% Wildcard node added automatic in EG.
+gsave
+[ /Rect [ 573.82 38 646 74 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI (http://bsse.sjsu.edu/node/11) >>
+  /Subtype /Link
+/ANN pdfmark
+0 1 1 nodecolor
+newpath 634.27 74 moveto
+634.27 74 585.73 74 585.73 74 curveto
+579.73 74 573.73 68 573.73 62 curveto
+573.73 62 573.73 50 573.73 50 curveto
+573.73 44 579.73 38 585.73 38 curveto
+585.73 38 634.27 38 634.27 38 curveto
+640.27 38 646.27 44 646.27 50 curveto
+646.27 50 646.27 62 646.27 62 curveto
+646.27 68 640.27 74 634.27 74 curveto
+closepath fill
+1 setlinewidth
+filled
+0 1 1 nodecolor
+newpath 634.27 74 moveto
+634.27 74 585.73 74 585.73 74 curveto
+579.73 74 573.73 68 573.73 62 curveto
+573.73 62 573.73 50 573.73 50 curveto
+573.73 44 579.73 38 585.73 38 curveto
+585.73 38 634.27 38 634.27 38 curveto
+640.27 38 646.27 44 646.27 50 curveto
+646.27 50 646.27 62 646.27 62 curveto
+646.27 68 640.27 74 634.27 74 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+581.82 51.8 moveto 56.36 (Elective 1) alignedtext
+grestore
+% Elective2
+% Wildcard node added automatic in EG.
+gsave
+[ /Rect [ 725.82 38 798 74 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI (http://bsse.sjsu.edu/node/11) >>
+  /Subtype /Link
+/ANN pdfmark
+0 1 1 nodecolor
+newpath 786.27 74 moveto
+786.27 74 737.73 74 737.73 74 curveto
+731.73 74 725.73 68 725.73 62 curveto
+725.73 62 725.73 50 725.73 50 curveto
+725.73 44 731.73 38 737.73 38 curveto
+737.73 38 786.27 38 786.27 38 curveto
+792.27 38 798.27 44 798.27 50 curveto
+798.27 50 798.27 62 798.27 62 curveto
+798.27 68 792.27 74 786.27 74 curveto
+closepath fill
+1 setlinewidth
+filled
+0 1 1 nodecolor
+newpath 786.27 74 moveto
+786.27 74 737.73 74 737.73 74 curveto
+731.73 74 725.73 68 725.73 62 curveto
+725.73 62 725.73 50 725.73 50 curveto
+725.73 44 731.73 38 737.73 38 curveto
+737.73 38 786.27 38 786.27 38 curveto
+792.27 38 798.27 44 798.27 50 curveto
+798.27 50 798.27 62 798.27 62 curveto
+798.27 68 792.27 74 786.27 74 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+733.82 51.8 moveto 56.36 (Elective 2) alignedtext
+grestore
+% COREGE
+% Wildcard node added automatic in EG.
+gsave
+0.96863 0.24706 1 nodecolor
+newpath 131 794 moveto
+131 794 83 794 83 794 curveto
+77 794 71 788 71 782 curveto
+71 782 71 770 71 770 curveto
+71 764 77 758 83 758 curveto
+83 758 131 758 131 758 curveto
+137 758 143 764 143 770 curveto
+143 770 143 782 143 782 curveto
+143 788 137 794 131 794 curveto
+closepath fill
+1 setlinewidth
+filled
+0.96863 0.24706 1 nodecolor
+newpath 131 794 moveto
+131 794 83 794 83 794 curveto
+77 794 71 788 71 782 curveto
+71 782 71 770 71 770 curveto
+71 764 77 758 83 758 curveto
+83 758 131 758 131 758 curveto
+137 758 143 764 143 770 curveto
+143 770 143 782 143 782 curveto
+143 788 137 794 131 794 curveto
+stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+79 771.8 moveto 56 (COREGE) alignedtext
+grestore
+% COREGE->ENGR100W
+% Wildcard node added automatic in EG.
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 114.29 757.87 moveto
+124.8 731.53 143 679.29 143 633 curveto
+143 633 143 633 143 487 curveto
+143 445.71 157.83 399.77 168.72 371.63 curveto
+stroke
+0 0 0 edgecolor
+newpath 172.06 372.7 moveto
+172.51 362.11 lineto
+165.56 370.11 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 172.06 372.7 moveto
+172.51 362.11 lineto
+165.56 370.11 lineto
+closepath stroke
+grestore
+endpage
+showpage
+grestore
+%%PageTrailer
+%%EndPage: 1
+%%Trailer
+%%Pages: 1
+%%BoundingBox: 50 50 974 900
+end
+restore
+%%EOF
