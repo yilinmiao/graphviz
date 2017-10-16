@@ -1,33 +1,46 @@
 digraph cmpe5year {
     label="\nBS in Computer Engineering Prerequisite Chart, Fall 2017 Catalog\n";
-    graph [ranksep="0.5", 
+    edge [comment="Wildcard node added automatic in EG."];
+    node [comment="Wildcard node added automatic in EG."];
+    graph [labelloc=t, 
            ratio="compress", 
            bb="0 0 1936 620", 
+           ranksep="0.5", 
+           fontsize=20, 
            nodesep="0.4", 
            dpi=100, 
-           size="11,8.5",
-           labelloc=t,
-           fontsize=20];
+           size="11,8.5"];
     {
+        edge [comment="Wildcard node added automatic in EG."];
         node [color=pink, 
               shape=box, 
               style="filled, rounded"];
         {
-        	edge [style="invis"];
-        	"Semesters" -> "Year 1, Semester 1";
-        }   
-        "Year 1, Semester 1" -> "Year 1, Semester 2" -> "Year 2, Semester 1";
-        "Year 2, Semester 1" -> "Year 2, Semester 2" -> "Year 3, Semester 1";
-        "Year 3, Semester 1" -> "Year 3, Semester 2" -> "Year 4, Semester 1";
-        "Year 4, Semester 1" -> "Year 4, Semester 2" -> "Year 5, Semester 1" -> "Year 5, Semester 2";
+            edge [style="invis"];
+            node [comment="Wildcard node added automatic in EG."];
+            "Semesters" -> "Year 1, Semester 1";
+        }
+
+        "Year 1, Semester 1" -> "Year 1, Semester 2";
+        "Year 1, Semester 2" -> "Year 2, Semester 1";
+        "Year 2, Semester 1" -> "Year 2, Semester 2";
+        "Year 2, Semester 2" -> "Year 3, Semester 1";
+        "Year 3, Semester 1" -> "Year 3, Semester 2";
+        "Year 3, Semester 2" -> "Year 4, Semester 1";
+        "Year 4, Semester 1" -> "Year 4, Semester 2";
+        "Year 4, Semester 2" -> "Year 5, Semester 1";
+        "Year 5, Semester 1" -> "Year 5, Semester 2";
         {
+            edge [comment="Wildcard node added automatic in EG."];
+            node [comment="Wildcard node added automatic in EG."];
             WST [URL="http://testing.sjsu.edu/wst", 
                  label="WST"];
             "Core GE" [URL="http://info.sjsu.edu/web-dbgen/narr/policies/rec-15458.15671.15676.html", 
-                 label="Core GE"];
+                       label="Core GE"];
         }
-        
+
         {
+            edge [comment="Wildcard node added automatic in EG."];
             node [color=grey];
             "MATH 030" [URL="http://info.sjsu.edu/web-dbgen/catalog/courses/MATH030.html", 
                         label="MATH 30"];
@@ -66,6 +79,7 @@ digraph cmpe5year {
         }
 
         {
+            edge [comment="Wildcard node added automatic in EG."];
             node [color=violet];
             "CMPE 030" [URL="http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE030.html", 
                         label="CMPE 30"];
@@ -104,17 +118,20 @@ digraph cmpe5year {
         }
 
         {
+            edge [comment="Wildcard node added automatic in EG."];
             node [color=red];
-            Elective1 [URL="https://cmpe.sjsu.edu/content/BSCMPE-technical-electives",
-                        label="Elective 1"];
-            Elective2 [URL="https://cmpe.sjsu.edu/content/BSCMPE-technical-electives",
-                        label="Elective 2"];
-            Elective3 [URL="https://cmpe.sjsu.edu/content/BSCMPE-technical-electives",
-                        label="Elective 3"];
+            Elective1 [URL="https://cmpe.sjsu.edu/content/BSCMPE-technical-electives", 
+                       label="Elective 1"];
+            Elective2 [URL="https://cmpe.sjsu.edu/content/BSCMPE-technical-electives", 
+                       label="Elective 2"];
+            Elective3 [URL="https://cmpe.sjsu.edu/content/BSCMPE-technical-electives", 
+                       label="Elective 3"];
         }
 
         {
             rank=same;
+            edge [comment="Wildcard node added automatic in EG."];
+            node [comment="Wildcard node added automatic in EG."];
             "Semesters";
             "ELM";
             "EPT";
@@ -124,6 +141,8 @@ digraph cmpe5year {
 
         {
             rank=same;
+            edge [comment="Wildcard node added automatic in EG."];
+            node [comment="Wildcard node added automatic in EG."];
             "Year 1, Semester 1";
             "ENGR 010";
             "MATH 030";
@@ -132,6 +151,8 @@ digraph cmpe5year {
 
         {
             rank=same;
+            edge [comment="Wildcard node added automatic in EG."];
+            node [comment="Wildcard node added automatic in EG."];
             "Year 1, Semester 2";
             "MATH 031";
             "PHYS 050";
@@ -140,6 +161,8 @@ digraph cmpe5year {
 
         {
             rank=same;
+            edge [comment="Wildcard node added automatic in EG."];
+            node [comment="Wildcard node added automatic in EG."];
             "Year 2, Semester 1";
             "CMPE 030";
             "MATH 032";
@@ -149,6 +172,8 @@ digraph cmpe5year {
 
         {
             rank=same;
+            edge [comment="Wildcard node added automatic in EG."];
+            node [comment="Wildcard node added automatic in EG."];
             "Year 2, Semester 2";
             "MATH 123";
             "EE 097";
@@ -157,6 +182,8 @@ digraph cmpe5year {
 
         {
             rank=same;
+            edge [comment="Wildcard node added automatic in EG."];
+            node [comment="Wildcard node added automatic in EG."];
             "Year 3, Semester 1";
             "CMPE 050";
             "BIOL 010";
@@ -164,6 +191,8 @@ digraph cmpe5year {
 
         {
             rank=same;
+            edge [comment="Wildcard node added automatic in EG."];
+            node [comment="Wildcard node added automatic in EG."];
             "Year 3, Semester 2";
             "CMPE 126";
             "CMPE 110";
@@ -173,6 +202,8 @@ digraph cmpe5year {
 
         {
             rank=same;
+            edge [comment="Wildcard node added automatic in EG."];
+            node [comment="Wildcard node added automatic in EG."];
             "Year 4, Semester 1";
             "CMPE 125";
             "CMPE 127";
@@ -182,6 +213,8 @@ digraph cmpe5year {
 
         {
             rank=same;
+            edge [comment="Wildcard node added automatic in EG."];
+            node [comment="Wildcard node added automatic in EG."];
             "Year 4, Semester 2";
             "CMPE 130";
             "CMPE 131";
@@ -191,6 +224,8 @@ digraph cmpe5year {
 
         {
             rank=same;
+            edge [comment="Wildcard node added automatic in EG."];
+            node [comment="Wildcard node added automatic in EG."];
             "Year 5, Semester 1";
             "CMPE 140";
             "CMPE 146";
@@ -201,6 +236,8 @@ digraph cmpe5year {
 
         {
             rank=same;
+            edge [comment="Wildcard node added automatic in EG."];
+            node [comment="Wildcard node added automatic in EG."];
             "Year 5, Semester 2";
             Elective1;
             Elective2;
@@ -211,6 +248,7 @@ digraph cmpe5year {
 
         {
             edge [style=solid];
+            node [comment="Wildcard node added automatic in EG."];
             "MATH 030";
             "ELM" -> "MATH 030";
             "MATH 031";
@@ -230,6 +268,7 @@ digraph cmpe5year {
             {
                 edge [style=dashed, 
                       arrowhead=open];
+                node [comment="Wildcard node added automatic in EG."];
                 "MATH 030" -> "CMPE 030";
             }
 
@@ -237,6 +276,7 @@ digraph cmpe5year {
                 edge [style=dashed, 
                       arrowtail=open, 
                       dir=back];
+                node [comment="Wildcard node added automatic in EG."];
                 "EE 097" -> "EE 098";
             }
 
@@ -247,6 +287,7 @@ digraph cmpe5year {
                 edge [style=dashed, 
                       arrowtail=open, 
                       dir=back];
+                node [comment="Wildcard node added automatic in EG."];
                 "EE 098" -> "MATH 123";
             }
 
@@ -262,6 +303,7 @@ digraph cmpe5year {
             {
                 edge [style=dashed, 
                       arrowhead=open];
+                node [comment="Wildcard node added automatic in EG."];
                 "CMPE 110" -> "CMPE 124";
             }
 
@@ -272,6 +314,7 @@ digraph cmpe5year {
             {
                 edge [style=dashed, 
                       arrowhead=open];
+                node [comment="Wildcard node added automatic in EG."];
                 "CMPE 125" -> "CMPE 127";
             }
 
@@ -287,6 +330,7 @@ digraph cmpe5year {
             {
                 edge [style=dashed, 
                       arrowhead=open];
+                node [comment="Wildcard node added automatic in EG."];
                 "CMPE 130" -> "CMPE 142";
             }
 
@@ -319,60 +363,76 @@ digraph cmpe5year {
             {
                 edge [style=dashed, 
                       dir=none];
+                node [comment="Wildcard node added automatic in EG."];
                 "ENGR 195A" -> "CMPE 195A";
             }
 
             {
                 edge [style=dashed, 
                       dir=none];
+                node [comment="Wildcard node added automatic in EG."];
                 "ENGR 195B" -> "CMPE 195B";
             }
 
             "ENGR 195A" -> "ENGR 195B";
             {
                 edge [style="invis"];
+                node [comment="Wildcard node added automatic in EG."];
                 "CMPE 146" -> "ENGR 195A";
             }
 
             {
                 edge [style="invis"];
+                node [comment="Wildcard node added automatic in EG."];
                 "ENGL 001B" -> "Core GE";
             }
 
             {
                 edge [style="invis"];
+                node [comment="Wildcard node added automatic in EG."];
                 "Core GE" -> "WST";
             }
 
             {
                 edge [style="invis"];
+                node [comment="Wildcard node added automatic in EG."];
                 "WST" -> "CMPE 124";
             }
 
             {
                 edge [style="invis"];
+                node [comment="Wildcard node added automatic in EG."];
                 "EPT" -> "EE 097";
             }
 
             {
                 edge [style="invis"];
+                node [comment="Wildcard node added automatic in EG."];
                 "ISE 130" -> "CMPE 126";
             }
 
             {
                 edge [style="invis"];
+                node [comment="Wildcard node added automatic in EG."];
                 "CMPE 050" -> "ISE 130";
             }
 
             {
                 edge [style="invis"];
+                node [comment="Wildcard node added automatic in EG."];
                 "MATH 030" -> "MATH 042";
             }
+
         }
+
     }
+
     {
-        "ENGR 195B" -> note[style="invis"];
+        edge [comment="Wildcard node added automatic in EG."];
+        node [comment="Wildcard node added automatic in EG."];
+        "ENGR 195B" -> note  [style="invis"];
         note [shape=plaintext, 
-        	label="Note: solid arrows indicate prerequisite and dashed lines indicate corequisite relationships"];
+              label="Note: solid arrows indicate prerequisite and dashed lines indicate corequisite relationships"];
     }
+
 }
